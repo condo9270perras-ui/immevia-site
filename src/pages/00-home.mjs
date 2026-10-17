@@ -2,8 +2,8 @@
 // Nine sections: nav · hero (memory outcome + real product) · credibility line ·
 // what needs attention · three workflows (tabs) · Dossier vivant (scroll
 // sequence) · who it's for · Québec (ink band) · pricing + demo form · footer.
-// Product frames are product-faithful mocks until the demo building yields
-// real screenshots; every number in them is illustrative, none is a claim.
+// Product frames are real screenshots of the app on a fictional demo building
+// (see src/mocks.mjs); the Dossier vivant frame is a built three-stage mock.
 import { mocks } from '../mocks.mjs'
 
 export const key = 'home'
@@ -13,6 +13,7 @@ export const priority = '1.0'
 export const title = 'Immevia'
 export const fullTitle = 'Immevia — Un immeuble qui se souvient.'
 export const description = 'Immevia réunit l’entretien, les finances, les documents, les assemblées et les communications d’un immeuble dans un seul dossier qui s’enrichit à chaque geste. Pour les syndicats, gestionnaires et propriétaires au Québec.'
+export const preload = ['/shots/ticket-admin.webp']
 export const jsonld = { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Immevia', applicationCategory: 'BusinessApplication', operatingSystem: 'Web', url: 'https://immevia.ca/', description: 'Plateforme de gestion immobilière pensée pour le Québec.', publisher: { '@type': 'Organization', name: 'Moubarak Technologies', url: 'https://immevia.ca/' } }
 
 const label = (t) => `<span class="eyebrow">${t}</span>`
@@ -29,7 +30,7 @@ export const body = ({ c }) => `
       <p>${c.sub}</p>
       <div class="actions"><a class="btn dark" href="#contact">${c.ctaPrimary}</a><a class="btn light" href="#attention">${c.ctaSecondary}</a></div>
     </div>
-    ${mocks.ticket({ live: true })}
+    ${mocks.ticket()}
   </div>
 </div>
 
