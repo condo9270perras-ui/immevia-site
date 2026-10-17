@@ -109,7 +109,41 @@
     "priceText": "Résidents, administrateurs et entrepreneurs en nombre illimité. Une soirée pour mettre l’immeuble en place. Un chiffre clair, par écrit, avant tout engagement.",
     "priceLink": "Voir les tarifs →",
     "formTitle": "Demandez une présentation",
-    "formNote": "Trente minutes, votre cas, rien que nous ne puissions montrer à l’écran."
+    "formNote": "Trente minutes, votre cas, rien que nous ne puissions montrer à l’écran.",
+    "metaTitle": "Immevia",
+    "fullTitle": "Immevia — Un immeuble qui se souvient.",
+    "metaDescription": "Immevia réunit l’entretien, les finances, les documents, les assemblées et les communications d’un immeuble dans un seul dossier qui s’enrichit à chaque geste. Pour les syndicats, gestionnaires et propriétaires au Québec.",
+    "jsonldDescription": "Plateforme de gestion immobilière pensée pour le Québec.",
+    "whoCta": "Voir →",
+    "more": "En savoir plus →",
+    "formName": "Nom",
+    "formEmail": "Courriel",
+    "formOrg": "Votre organisation",
+    "formOrgOptions": [
+      {
+        "value": "Condo / Syndicat",
+        "label": "Syndicat de copropriété"
+      },
+      {
+        "value": "Gestionnaire",
+        "label": "Gestionnaire immobilier"
+      },
+      {
+        "value": "Propriétaire",
+        "label": "Propriétaire immobilier"
+      },
+      {
+        "value": "Autre",
+        "label": "Autre"
+      }
+    ],
+    "formUnits": "Nombre d’unités",
+    "formUnitsPh": "ex. 12",
+    "formMessage": "Votre message",
+    "formMessagePh": "Parlez-nous de vos immeubles…",
+    "formSubmit": "Envoyer ma demande ↗",
+    "formHoney": "Ne pas remplir :",
+    "formLegal": "En envoyant ce formulaire, vous acceptez notre <a href=\"/confidentialite.html\">politique de confidentialité</a>."
   },
   "platform": {
     "eyebrow": "La plateforme",
@@ -181,7 +215,15 @@
         "text": "Une page par mandat, par lien personnel : la description, les photos, les disponibilités du résident. Aucun compte, aucune donnée au-delà du travail à faire."
       }
     ],
-    "honest": "Les fonctionnalités décrites existent dans la plateforme telle qu’utilisée aujourd’hui. Certaines sont en évolution ; nous vous montrons volontiers l’état réel en démonstration plutôt qu’une promesse."
+    "honest": "Les fonctionnalités décrites existent dans la plateforme telle qu’utilisée aujourd’hui. Certaines sont en évolution ; nous vous montrons volontiers l’état réel en démonstration plutôt qu’une promesse.",
+    "metaTitle": "La plateforme",
+    "metaDescription": "Entretien, Dossier vivant, finances, assemblées et portail résident : ce que la plateforme Immevia fait concrètement pour un immeuble au Québec.",
+    "secondaryLabel": "Le Dossier vivant ↓",
+    "shotAlt": "Page d’une demande d’entretien avec une soumission à approuver",
+    "cta": {
+      "title": "Voyez-la fonctionner sur votre immeuble.",
+      "text": "Trente minutes, votre cas, aucune promesse que nous ne pouvons pas montrer à l’écran."
+    }
   },
   "record": {
     "eyebrow": "Dossier vivant de l’immeuble",
@@ -242,7 +284,14 @@
         "text": "Nouveau conseil, nouveau gestionnaire : ils héritent du dossier complet, avec l’historique et les preuves, dès leur première connexion."
       }
     ],
-    "honest": "Le Dossier vivant organise l’information et ses échéances. Il ne remplace ni le carnet d’entretien préparé par un professionnel habilité, ni l’étude du fonds de prévoyance, ni un avis juridique — il les classe, les date et vous rappelle quand ils doivent être renouvelés."
+    "honest": "Le Dossier vivant organise l’information et ses échéances. Il ne remplace ni le carnet d’entretien préparé par un professionnel habilité, ni l’étude du fonds de prévoyance, ni un avis juridique — il les classe, les date et vous rappelle quand ils doivent être renouvelés.",
+    "metaTitle": "Le Dossier vivant de l’immeuble",
+    "metaDescription": "Le Dossier vivant : des preuves datées rattachées à chaque composante de l’immeuble, ce qui expire signalé d’avance, un historique qui se transmet au prochain conseil.",
+    "shotAlt": "Le Dossier vivant d’un immeuble : 41,5 % documenté, obligations Loi 16, sections à faire avec les boutons Téléverser et Demander",
+    "cta": {
+      "title": "Commencez le dossier de votre immeuble.",
+      "text": "Il se construit au fil des semaines. Le plus tôt il commence, le plus il vaudra."
+    }
   },
   "assemblies": {
     "eyebrow": "Assemblée générale",
@@ -344,7 +393,15 @@
         "text": "Le PV, les présences, les décisions et leurs échéances sont dans le dossier, consultables l’an prochain par un conseil qui n’était pas là."
       }
     ],
-    "honest": "Les délais de convocation, les majorités et le contenu du procès-verbal sont ceux prévus par votre déclaration de copropriété et le Code civil du Québec ; Immevia vous aide à les appliquer, mais la responsabilité de leur respect demeure celle du syndicat."
+    "honest": "Les délais de convocation, les majorités et le contenu du procès-verbal sont ceux prévus par votre déclaration de copropriété et le Code civil du Québec ; Immevia vous aide à les appliquer, mais la responsabilité de leur respect demeure celle du syndicat.",
+    "metaTitle": "Assemblée générale",
+    "metaDescription": "Convocation avec documents, réponses de présence en un clic, relance automatique, séance assistée avec quorum et majorités, procès-verbal généré et transmis dans les délais.",
+    "mockChip": "PV transmis",
+    "mockAlt": "Aperçu du suivi d’une assemblée",
+    "cta": {
+      "title": "Votre prochaine assemblée, préparée en une soirée.",
+      "text": "Montrez-nous votre dernière convocation ; nous vous montrons la prochaine."
+    }
   },
   "solutions": {
     "eyebrow": "Solutions",
@@ -369,7 +426,9 @@
         "text": "Pour un propriétaire qui veut l’historique de son bâtiment, le suivi des loyers et des réparations, au même endroit.",
         "cta": "Voir pour un immeuble locatif →"
       }
-    ]
+    ],
+    "metaTitle": "Solutions",
+    "metaDescription": "Immevia pour les syndicats de copropriété, les gestionnaires immobiliers et les propriétaires d’immeubles locatifs ou mixtes au Québec."
   },
   "syndicats": {
     "eyebrow": "Pour les syndicats de copropriété",
@@ -410,7 +469,14 @@
       "vous voulez que le prochain conseil retrouve tout, sans vous appeler ;",
       "vos copropriétaires ont un courriel et un téléphone — c’est tout ce qu’il leur faut."
     ],
-    "honest": "Immevia est utilisée au quotidien dans une copropriété de Rivière-des-Prairies, à Montréal, par le syndic qui l’a conçue. Nous préférons vous montrer ce qu’elle fait vraiment plutôt que de vous citer des clients que nous n’avons pas encore."
+    "honest": "Immevia est utilisée au quotidien dans une copropriété de Rivière-des-Prairies, à Montréal, par le syndic qui l’a conçue. Nous préférons vous montrer ce qu’elle fait vraiment plutôt que de vous citer des clients que nous n’avons pas encore.",
+    "metaTitle": "Pour les syndicats de copropriété",
+    "metaDescription": "Immevia pour un conseil d’administration bénévole : charges communes, réparations par lien entrepreneur, assemblée assistée, Dossier vivant conforme à la Loi 16.",
+    "secondaryLabel": "Autres profils",
+    "cta": {
+      "title": "Parlons de votre immeuble.",
+      "text": "Une démonstration sur votre cas, et un prix clair avant tout engagement."
+    }
   },
   "gestionnaires": {
     "eyebrow": "Pour les gestionnaires immobiliers",
@@ -451,7 +517,14 @@
       "vous répondez à des conseils d’administration qui veulent des preuves, pas des promesses ;",
       "vous préférez un outil qui vous laisse tranquille quand tout va bien."
     ],
-    "honest": "La vue multi-immeubles est en construction : la plateforme gère aujourd’hui un immeuble par espace, avec un sélecteur d’immeuble. Nous le disons en démonstration, et nous bâtissons la suite avec les premiers gestionnaires."
+    "honest": "La vue multi-immeubles est en construction : la plateforme gère aujourd’hui un immeuble par espace, avec un sélecteur d’immeuble. Nous le disons en démonstration, et nous bâtissons la suite avec les premiers gestionnaires.",
+    "metaTitle": "Pour les gestionnaires immobiliers",
+    "metaDescription": "Immevia pour un gestionnaire de plusieurs immeubles : gestion par exception, carnet d’entrepreneurs, rapports par immeuble, dossiers transférables.",
+    "secondaryLabel": "Autres profils",
+    "cta": {
+      "title": "Parlons de votre immeuble.",
+      "text": "Une démonstration sur votre cas, et un prix clair avant tout engagement."
+    }
   },
   "locatifs": {
     "eyebrow": "Pour les immeubles locatifs et mixtes",
@@ -492,7 +565,14 @@
       "vous voulez un historique propre du bâtiment, pas seulement une comptabilité ;",
       "vos locataires ont un courriel et un téléphone."
     ],
-    "honest": "Le vocabulaire s’adapte au type d’immeuble (« logement » plutôt que « unité », « locataire » plutôt que « copropriétaire »), mais le moteur est celui d’une copropriété. Les fonctions propres au locatif (baux, renouvellements, TAL) ne sont pas encore couvertes — dites-nous ce dont vous avez besoin."
+    "honest": "Le vocabulaire s’adapte au type d’immeuble (« logement » plutôt que « unité », « locataire » plutôt que « copropriétaire »), mais le moteur est celui d’une copropriété. Les fonctions propres au locatif (baux, renouvellements, TAL) ne sont pas encore couvertes — dites-nous ce dont vous avez besoin.",
+    "metaTitle": "Pour les immeubles locatifs et mixtes",
+    "metaDescription": "Immevia pour un propriétaire d’immeuble locatif ou mixte : loyers rapprochés automatiquement, réparations par lien, dossier d’immeuble qui prend de la valeur.",
+    "secondaryLabel": "Autres profils",
+    "cta": {
+      "title": "Parlons de votre immeuble.",
+      "text": "Une démonstration sur votre cas, et un prix clair avant tout engagement."
+    }
   },
   "pricing": {
     "eyebrow": "Tarifs",
@@ -517,7 +597,16 @@
         "text": "Un prix dégressif par porte selon le nombre d’immeubles, et un accompagnement pour la reprise des premiers dossiers. Parlons de votre portefeuille."
       }
     ],
-    "honest": "Nous ne publions pas encore de grille de prix : la plateforme est utilisée par ses premiers immeubles et le prix se fixe avec eux, immeuble par immeuble. Vous aurez un chiffre clair et écrit avant de vous engager à quoi que ce soit."
+    "honest": "Nous ne publions pas encore de grille de prix : la plateforme est utilisée par ses premiers immeubles et le prix se fixe avec eux, immeuble par immeuble. Vous aurez un chiffre clair et écrit avant de vous engager à quoi que ce soit.",
+    "metaTitle": "Tarifs",
+    "metaDescription": "Immevia est facturée par porte, par mois, toutes fonctions et tous utilisateurs inclus, sans engagement de longue durée. Prix sur demande selon la taille de l’immeuble.",
+    "heroCta": "Obtenir un prix pour mon immeuble ↗",
+    "includesTitle": "Ce qui est inclus, toujours :",
+    "cta": {
+      "title": "Un chiffre clair, par écrit.",
+      "text": "Dites-nous le nombre d’unités et le type d’immeuble ; vous aurez une réponse rapide.",
+      "label": "Demander un prix ↗"
+    }
   },
   "faq": {
     "eyebrow": "Questions fréquentes",
@@ -571,7 +660,7 @@
         "items": [
           {
             "q": "Où sont hébergées nos données ?",
-            "a": "<p>Chez des fournisseurs infonuagiques reconnus (base de données et stockage des documents chiffrés, courriels transactionnels), en Amérique du Nord. La région exacte et la liste des fournisseurs vous sont communiquées par écrit avant tout engagement et figureront dans la politique de confidentialité finale.</p>"
+            "a": "La base de données et les documents sont hébergés au Canada (région de Montréal). Certains traitements — serveurs de l’application, envoi des courriels, reconnaissance automatique des documents — ont lieu aux États-Unis chez des fournisseurs reconnus. La liste complète est dans notre <a href=\"/confidentialite.html\">politique de confidentialité</a>."
           },
           {
             "q": "Qui a accès à quoi ?",
@@ -587,6 +676,93 @@
           }
         ]
       }
-    ]
+    ],
+    "metaTitle": "Questions fréquentes",
+    "metaDescription": "Mise en place, résidents sans compte, entrepreneurs par lien, rappels de paiement, hébergement des données, accès par rôle, résiliation : les réponses.",
+    "cta": {
+      "title": "Il manque votre question ?",
+      "text": "Écrivez-nous ; la réponse ira ici pour les suivants.",
+      "label": "Nous écrire ↗"
+    }
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "homeLabel": "Immevia — accueil",
+    "nav": {
+      "platform": "Plateforme",
+      "record": "Dossier vivant",
+      "assemblies": "Assemblées",
+      "solutions": "Solutions",
+      "pricing": "Tarifs",
+      "faq": "FAQ"
+    },
+    "switch": "EN",
+    "switchLabel": "English version",
+    "login": "Connexion",
+    "demo": "Demander une démo ↗",
+    "ctaDefault": "Parlons de vos besoins ↗",
+    "footerPlace": "Montréal (Québec)",
+    "law16": "Loi 16",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "shots": {
+      "ticket": "Page d’une demande d’entretien dans Immevia : « Soumission à approuver », entrepreneur Toitures Lavoie, 1 450 $, fil du dossier avec le bouton Approuver et lancer les travaux",
+      "queue": "Liste Maintenance d’Immevia groupée par ce qui bloque : décision attendue, sans réponse depuis 48 h, nouvelles à trier",
+      "contractor": "Page de l’entrepreneur sur téléphone : travail accepté, visite jeudi 22 oct. 8 h – 10 h, soumission de 1 450 $ envoyée, photos après travaux",
+      "assemblee": "Suivi d’une assemblée annuelle : convocation envoyée à 6 destinataires, 6 copropriétaires sur 6 avec courriel, étapes faites et prochaine étape « Tenir l’assemblée »",
+      "finances": "Finances d’Immevia : 450 $ à percevoir, 88 % perçu ce mois (7 unités sur 8), une unité en retard avec les boutons Relancer et Paiement",
+      "dossierVivant": "Le Dossier vivant : des fragments deviennent un dossier daté, puis une mémoire de l’immeuble"
+    },
+    "dv": {
+      "title": "Dossier vivant · 9270 Perras",
+      "s1": "en construction",
+      "s2": "2 à suivre",
+      "s3": "À suivre : 0",
+      "chips": [
+        "Facture toiture",
+        "Photo balcon",
+        "Police d’assurance",
+        "PV 2024",
+        "Étude fonds",
+        "Contrat chaudière",
+        "Rapport inspection",
+        "Courriel plombier",
+        "Plan du toit",
+        "Reçu Costco",
+        "Garantie 2 ans",
+        "Soumission"
+      ],
+      "rows": [
+        [
+          "Toiture",
+          "scellant repris · garantie 2 ans",
+          "green"
+        ],
+        [
+          "Assurance",
+          "police 2026–2027 · expire le 25 nov. 2027",
+          "green"
+        ],
+        [
+          "Fonds de prévoyance",
+          "étude reçue · à renouveler en 2030",
+          "green"
+        ],
+        [
+          "Chauffage",
+          "contrat d’entretien · prochaine visite oct.",
+          "amber"
+        ],
+        [
+          "Assemblées",
+          "PV 2024, 2025, 2026 · 3 obligations suivies",
+          "green"
+        ]
+      ],
+      "f1": "12 pièces, nulle part en particulier",
+      "f2": "12 pièces datées, rattachées à 5 composantes",
+      "f3": "5 ans d’historique · hérités par le prochain conseil"
+    }
   }
 }

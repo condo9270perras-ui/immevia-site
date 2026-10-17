@@ -1,0 +1,768 @@
+{
+  "ui": {
+    "skip": "Skip to content",
+    "homeLabel": "Immevia — home",
+    "nav": {
+      "platform": "Platform",
+      "record": "Living Record",
+      "assemblies": "Meetings",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "switch": "FR",
+    "switchLabel": "Version française",
+    "login": "Sign in",
+    "demo": "Request a demo ↗",
+    "ctaDefault": "Let’s talk about your needs ↗",
+    "footerPlace": "Montréal, Québec",
+    "law16": "Bill 16",
+    "contact": "Contact",
+    "privacy": "Privacy (French)",
+    "terms": "Terms (French)",
+    "shots": {
+      "ticket": "A maintenance request in Immevia: “Quote to approve”, contractor Toitures Lavoie, $1,450, the case timeline with the “Approve and start the work” button",
+      "queue": "Immevia’s Maintenance list grouped by what is blocking: decision pending, no reply for 48 h, new requests to triage",
+      "contractor": "The contractor’s page on a phone: job accepted, visit Thursday Oct 22, 8–10 a.m., $1,450 quote sent, after-work photos",
+      "assemblee": "Annual meeting follow-up: notice sent to 6 recipients, 6 of 6 co-owners with an e-mail, steps done and next step “Hold the meeting”",
+      "finances": "Immevia’s Finances: $450 to collect, 88 % collected this month (7 of 8 units), one unit behind with the Remind and Payment buttons",
+      "dossierVivant": "The Living Record: fragments become a dated file, then the building’s memory"
+    },
+    "dv": {
+      "title": "Living Record · 9270 Perras",
+      "s1": "in progress",
+      "s2": "2 to follow up",
+      "s3": "To follow up: 0",
+      "chips": [
+        "Roof invoice",
+        "Balcony photo",
+        "Insurance policy",
+        "Minutes 2024",
+        "Fund study",
+        "Boiler contract",
+        "Inspection report",
+        "Plumber e-mail",
+        "Roof plan",
+        "Costco receipt",
+        "2-year warranty",
+        "Quote"
+      ],
+      "rows": [
+        [
+          "Roof",
+          "sealant redone · 2-year warranty",
+          "green"
+        ],
+        [
+          "Insurance",
+          "policy 2026–2027 · expires Nov 25, 2027",
+          "green"
+        ],
+        [
+          "Contingency fund",
+          "study received · renew in 2030",
+          "green"
+        ],
+        [
+          "Heating",
+          "maintenance contract · next visit Oct.",
+          "amber"
+        ],
+        [
+          "Meetings",
+          "minutes 2024, 2025, 2026 · 3 obligations tracked",
+          "green"
+        ]
+      ],
+      "f1": "12 items, nowhere in particular",
+      "f2": "12 dated items, attached to 5 components",
+      "f3": "5 years of history · inherited by the next board"
+    }
+  },
+  "home": {
+    "eyebrow": "Property management · Québec",
+    "h1": "A building <span>that remembers.</span>",
+    "sub": "Maintenance, finances, documents, meetings and communications — in one record that grows with every action. For condo syndicates, property managers and building owners.",
+    "ctaPrimary": "Request a demo ↗",
+    "ctaSecondary": "See how it works ↓",
+    "cred": "Built by a syndicate manager, for syndicate managers — used every day in a Montréal condominium.",
+    "credFacts": [
+      "Montréal",
+      "French first",
+      "Data hosted in Canada"
+    ],
+    "attLabel": "Management by exception",
+    "attTitle": "You don’t have to go looking.<br>Immevia tells you what to look at.",
+    "attCopy": "The everyday stays quiet. The platform surfaces only what needs a decision or an action.",
+    "att": [
+      {
+        "title": "Decision pending",
+        "text": "A quote to approve, an invoice to record. Above the board’s threshold, the decision has to be noted before approving."
+      },
+      {
+        "title": "Deadline approaching",
+        "text": "Insurance, maintenance contract, contingency-fund study: flagged before it’s too late."
+      },
+      {
+        "title": "Silence that drags on",
+        "text": "A request with no reply for 48 h, a contractor who hasn’t opened their link: at the top of the list."
+      }
+    ],
+    "flowLabel": "Three actions, one thread",
+    "flowTitle": "A leak reported. A meeting held.<br>A payment received.",
+    "flowCopy": "Every everyday action leaves a trace in the right place of the record — nothing retyped.",
+    "tabs": [
+      {
+        "key": "entretien",
+        "label": "Maintenance",
+        "title": "The resident reports, the contractor gets a link, you approve.",
+        "text": "Photos and the resident’s availability; a personal link for the contractor, no account needed; visit, quote, “after” photos, invoice — every step on the thread, and the invoice becomes an expense.",
+        "link": "/plateforme/"
+      },
+      {
+        "key": "assemblee",
+        "label": "Meeting",
+        "title": "Notice, attendance, session, minutes.",
+        "text": "One-click replies from the e-mail, one-tap reminders, quorum and majorities computed during the session, minutes generated and sent, decisions added to the schedule.",
+        "link": "/assemblees/"
+      },
+      {
+        "key": "finances",
+        "label": "Finances",
+        "title": "Transfers reconcile themselves.",
+        "text": "Fees posted every month, Interac transfers recognized and matched, late payers reminded with a direct sign-in link, monthly report as a PDF.",
+        "link": "/plateforme/"
+      }
+    ],
+    "dvLabel": "The Living Record",
+    "dvTitle": "A building starts as fragments.<br>It ends as memory.",
+    "dvSteps": [
+      {
+        "year": "Year 1",
+        "title": "Fragments",
+        "text": "Invoices, photos, reports, e-mails, minutes: each one somewhere, with someone."
+      },
+      {
+        "year": "Year 2",
+        "title": "A record",
+        "text": "Every item dated, attached to a component of the building, with its expiry. What expires is flagged ahead of time."
+      },
+      {
+        "year": "Year 5",
+        "title": "A memory",
+        "text": "A new board inherits everything the day it arrives. Every intervention made the record more valuable."
+      }
+    ],
+    "dvClose": "When a board member leaves, what they knew leaves with them — unless the building remembers.",
+    "dvCta": "Discover the Living Record →",
+    "whoLabel": "Who it’s for",
+    "whoTitle": "Is it for a building like yours?",
+    "who": [
+      {
+        "href": "/solutions/syndicats/",
+        "title": "Condo syndicates",
+        "text": "Do things properly without giving up your evenings."
+      },
+      {
+        "href": "/solutions/gestionnaires/",
+        "title": "Property managers",
+        "text": "Several buildings, several boards to answer to."
+      },
+      {
+        "href": "/solutions/immeubles-locatifs/",
+        "title": "Rental and mixed buildings",
+        "text": "The building’s history, the rents and the repairs, in one place."
+      }
+    ],
+    "qcLabel": "Québec · Co-ownership",
+    "qcTitle": "Bill 16, maintenance log, contingency fund.",
+    "qcText": "Immevia prepares the requests to professionals, files their reports and reminds you of renewals. It replaces neither a qualified professional nor legal advice.",
+    "qcList": [
+      "Reference documents centralized and dated",
+      "Maintenance and interventions tracked",
+      "Building history preserved",
+      "Upcoming deadlines visible"
+    ],
+    "qcCta": "Read the official rules (in French) ↗",
+    "priceLabel": "Pricing and demo",
+    "priceTitle": "One price per door, per month, all included.",
+    "priceText": "Unlimited residents, board members and contractors. One evening to set the building up. A clear figure, in writing, before any commitment.",
+    "priceLink": "See pricing →",
+    "formTitle": "Request a walkthrough",
+    "formNote": "Thirty minutes, your situation, nothing we can’t show on screen.",
+    "metaTitle": "Immevia",
+    "fullTitle": "Immevia — A building that remembers.",
+    "metaDescription": "Immevia brings a building’s maintenance, finances, documents, meetings and communications into one record that grows with every action. For condo syndicates, property managers and owners in Québec.",
+    "jsonldDescription": "Property management platform designed for Québec.",
+    "whoCta": "See →",
+    "more": "Learn more →",
+    "formName": "Name",
+    "formEmail": "E-mail",
+    "formOrg": "Your organization",
+    "formOrgOptions": [
+      {
+        "value": "Condo / Syndicat",
+        "label": "Condo syndicate"
+      },
+      {
+        "value": "Gestionnaire",
+        "label": "Property manager"
+      },
+      {
+        "value": "Propriétaire",
+        "label": "Building owner"
+      },
+      {
+        "value": "Autre",
+        "label": "Other"
+      }
+    ],
+    "formUnits": "Number of units",
+    "formUnitsPh": "e.g. 12",
+    "formMessage": "Your message",
+    "formMessagePh": "Tell us about your buildings…",
+    "formSubmit": "Send my request ↗",
+    "formHoney": "Leave empty:",
+    "formLegal": "By sending this form you accept our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French)."
+  },
+  "platform": {
+    "eyebrow": "The platform",
+    "title": "Everything a building asks of you, <span>in one place.</span>",
+    "copy": "Immevia brings a building’s maintenance, finances, documents, meetings and communications into one space — with a memory that grows with every action.",
+    "areasLabel": "Five areas, one record",
+    "areasTitle": "What the platform does, concretely.",
+    "areas": [
+      {
+        "icon": "⚒",
+        "title": "Maintenance and requests",
+        "text": "Residents report a problem from their phone, with photos and availability. You assign a contractor through a personal link — no account on their side — and they accept, set the visit, submit their quote, their “after” photos and their invoice. Every step shows on the case thread, and the invoice becomes an expense in one action."
+      },
+      {
+        "icon": "▤",
+        "title": "Living Record",
+        "text": "Insurance, contracts, studies, certificates, plans: every document is a dated piece of evidence attached to a component of the building. What expires is flagged before the deadline; what is missing is listed. The record stays when the board changes."
+      },
+      {
+        "icon": "◫",
+        "title": "Finances",
+        "text": "Common expenses, payments received, expenses with receipts, advances and repayments. Interac e-Transfers received by e-mail are recognized and matched automatically; late payments trigger courteous reminders with a direct sign-in link for the resident."
+      },
+      {
+        "icon": "◉",
+        "title": "Meetings",
+        "text": "Notice, agenda, attached documents, attendance replies, reminders, assisted session (attendance, quorum, majorities), minutes generated and sent. Obligations voted go into the schedule."
+      },
+      {
+        "icon": "✉",
+        "title": "Communications and portal",
+        "text": "Every resident has their portal — installable on the phone like an app — with their requests, their statement, the building’s documents and notices. Sign-in by e-mail link, no password to remember."
+      }
+    ],
+    "exceptionLabel": "Management by exception",
+    "exceptionTitle": "You don’t have to go looking.<br>Immevia tells you what to look at.",
+    "exceptionCopy": "The everyday stays quiet. The platform surfaces only what needs a decision or an action: a quote to approve, an invoice to record, a contractor who hasn’t replied, an insurance policy about to expire, a late payment, a missing piece in the record.",
+    "exceptions": [
+      {
+        "title": "Decision pending",
+        "text": "A quote exceeds the board’s approval threshold: the platform requires the decision to be noted before approving."
+      },
+      {
+        "title": "Deadline approaching",
+        "text": "Insurance, maintenance contract, contingency-fund study: flagged before it’s too late, with the current proof that is expiring."
+      },
+      {
+        "title": "Silence that drags on",
+        "text": "A request with no reply for more than 48 h, a contractor who hasn’t opened their link: you see it at the top of the list."
+      }
+    ],
+    "rolesLabel": "Who sees what",
+    "rolesTitle": "The right information to the right person — and nothing more.",
+    "roles": [
+      {
+        "title": "Syndicate manager or property manager",
+        "text": "The whole record, every decision, the full history. Every action is logged."
+      },
+      {
+        "title": "Board of directors",
+        "text": "Documents, monthly reports, decisions to make — without access to residents’ personal data."
+      },
+      {
+        "title": "Residents and co-owners",
+        "text": "Their own requests, their statement, the building’s documents, meeting notices. Never the quotes, the invoices or the neighbours’ files."
+      },
+      {
+        "title": "Contractors",
+        "text": "One page per job, through a personal link: the description, the photos, the resident’s availability. No account, no data beyond the work to be done."
+      }
+    ],
+    "honest": "The features described exist in the platform as it is used today. Some are still evolving; we would rather show you the real state in a demo than make a promise.",
+    "metaTitle": "The platform",
+    "metaDescription": "Maintenance, Living Record, finances, meetings and resident portal: what the Immevia platform concretely does for a building in Québec.",
+    "secondaryLabel": "The Living Record ↓",
+    "shotAlt": "A maintenance request page with a quote to approve",
+    "cta": {
+      "title": "See it run on your building.",
+      "text": "Thirty minutes, your situation, no promise we can’t show on screen."
+    }
+  },
+  "record": {
+    "eyebrow": "The building’s Living Record",
+    "title": "Your building’s memory, <span>that doesn’t leave with the people.</span>",
+    "copy": "A board changes, a manager leaves, a contractor closes shop. What they knew about the building disappears with them — unless something held on to it. That is the Living Record: a file that builds itself with every intervention, every document, every decision.",
+    "whatLabel": "What it holds",
+    "whatTitle": "Dated evidence, not loose files.",
+    "whatCopy": "Every item in the record is attached to a component of the building (roof, heating, insurance, contingency fund…), carries a validity date and knows what it proves. When a new policy replaces the old one, the old one is archived — not lost, not mixed up.",
+    "sections": [
+      {
+        "icon": "▤",
+        "title": "Reference documents",
+        "text": "Declaration of co-ownership, by-laws, plans, studies, certificates, insurance policies — with their expiry date when they have one."
+      },
+      {
+        "icon": "⚒",
+        "title": "Interventions",
+        "text": "Every resolved maintenance request leaves a trace: who came, when, for what, at what price, with the before and after photos."
+      },
+      {
+        "icon": "◉",
+        "title": "Decisions",
+        "text": "What was voted at the meeting, when, with which majority — and the obligations that follow, in the schedule."
+      },
+      {
+        "icon": "◷",
+        "title": "To follow up",
+        "text": "What is missing, what is expiring, what is planned: a short list sorted by urgency, rather than a binder to leaf through."
+      },
+      {
+        "icon": "✎",
+        "title": "Requests to professionals",
+        "text": "Need a contingency-fund study or a maintenance log? Immevia prepares the request to the professional with the relevant documents, then files their report as evidence."
+      },
+      {
+        "icon": "⌕",
+        "title": "Document recognition",
+        "text": "A photographed receipt, an invoice received by e-mail: the platform extracts the essentials and suggests where to file it. You confirm."
+      }
+    ],
+    "howLabel": "How it builds itself",
+    "howTitle": "You don’t have to fill it in. It fills itself in.",
+    "how": [
+      {
+        "title": "You manage as usual",
+        "text": "A maintenance request, a payment received, a meeting held: every everyday action leaves its trace in the right place of the record."
+      },
+      {
+        "title": "Documents arrive through the usual channels",
+        "text": "A forwarded e-mail, a photo taken on the phone, an upload: Immevia recognizes the type of document and suggests the component and the date. You validate."
+      },
+      {
+        "title": "The record speaks to you",
+        "text": "Every week, what expires or is missing shows up under “To follow up”. The rest stays quiet."
+      },
+      {
+        "title": "It survives change",
+        "text": "New board, new manager: they inherit the complete record, with the history and the evidence, from their first sign-in."
+      }
+    ],
+    "honest": "The Living Record organizes information and its deadlines. It replaces neither the maintenance log prepared by a qualified professional, nor the contingency-fund study, nor legal advice — it files them, dates them and reminds you when they must be renewed.",
+    "metaTitle": "The building’s Living Record",
+    "metaDescription": "The Living Record: dated evidence attached to each component of the building, expiries flagged ahead of time, a history handed over to the next board.",
+    "shotAlt": "A building’s Living Record: 41.5 % documented, Bill 16 obligations, sections to complete with the Upload and Request buttons",
+    "cta": {
+      "title": "Start your building’s record.",
+      "text": "It builds up over the weeks. The sooner it starts, the more it will be worth."
+    }
+  },
+  "assemblies": {
+    "eyebrow": "General meeting",
+    "title": "From the notice to the minutes, <span>without chasing anyone.</span>",
+    "copy": "The annual meeting is where everything gets decided — and, for many syndicates, the most painful moment of the year. Immevia takes care of the logistics from start to finish, so you can focus on the decisions.",
+    "flowLabel": "How it unfolds",
+    "flowTitle": "Six steps, one thread.",
+    "flow": [
+      {
+        "title": "Prepare",
+        "text": "Date, place, agenda, attached documents (financial statements, budget, quotes). Immevia gathers what is already in the record: you don’t have to hunt for the documents."
+      },
+      {
+        "title": "Send the notice",
+        "text": "One e-mail per unit, with the agenda, the documents and a direct sign-in link to the portal. You receive a test copy first to check how it looks."
+      },
+      {
+        "title": "Track attendance",
+        "text": "Each co-owner replies in one click from the e-mail: attending, represented, absent. You see who hasn’t replied and remind them with one tap — without retyping a message."
+      },
+      {
+        "title": "Hold the session",
+        "text": "Session mode on a tablet or computer: attendance confirmed, quorum computed from the fractions, each item voted with the required majority displayed. Proxies are recorded."
+      },
+      {
+        "title": "Produce the minutes",
+        "text": "The minutes are generated from what was entered during the session, in the expected format, then sent to the co-owners. They are filed in the record."
+      },
+      {
+        "title": "Keep decisions alive",
+        "text": "An obligation voted (work, special assessment, by-law change) becomes a schedule entry with its date: it doesn’t stay buried in the minutes."
+      }
+    ],
+    "mockTitle": "Annual meeting · October 28",
+    "mockLead": [
+      {
+        "k": "Replies",
+        "v": "6 / 7",
+        "tone": "green",
+        "d": "1 no reply · reminded yesterday"
+      },
+      {
+        "k": "Quorum",
+        "v": "Reached",
+        "tone": "green",
+        "d": "attending + represented"
+      },
+      {
+        "k": "Documents",
+        "v": "4 attached",
+        "tone": "",
+        "d": "financial statements, budget, 2 quotes"
+      }
+    ],
+    "mockRows": [
+      {
+        "tone": "green",
+        "b": "Notice sent to all 7 units",
+        "s": "12 days ago · test copy received before sending"
+      },
+      {
+        "tone": "green",
+        "b": "5 attendance replies received",
+        "s": "from the link in the e-mail"
+      },
+      {
+        "tone": "amber",
+        "b": "Reminder sent to the 2 units without a reply",
+        "s": "yesterday · one tap"
+      },
+      {
+        "tone": "grey",
+        "b": "Session: attendance, quorum, 6 items voted",
+        "s": "same day"
+      },
+      {
+        "tone": "green",
+        "b": "Minutes generated and sent",
+        "s": "filed in the Living Record"
+      }
+    ],
+    "mockAct": {
+      "b": "Obligation voted → schedule",
+      "s": "Replace the common water heater before June 30"
+    },
+    "whyLabel": "Why it matters",
+    "whyTitle": "Less friction, more participation.",
+    "why": [
+      {
+        "title": "People reply",
+        "text": "One click in an e-mail, not a form to print. Replies come in, and you know whom to remind."
+      },
+      {
+        "title": "The session moves",
+        "text": "No quorum math by hand, no doubt about the required majority: the screen shows it, you run the meeting."
+      },
+      {
+        "title": "Nothing gets lost",
+        "text": "The minutes, attendance, decisions and their deadlines are in the record, available next year to a board that wasn’t there."
+      }
+    ],
+    "honest": "Notice periods, majorities and the content of the minutes are those set by your declaration of co-ownership and the Civil Code of Québec; Immevia helps you apply them, but the responsibility for complying with them remains the syndicate’s.",
+    "metaTitle": "General meeting",
+    "metaDescription": "Notice with documents, one-click attendance replies, automatic reminders, assisted session with quorum and majorities, minutes generated and sent on time.",
+    "mockChip": "Minutes sent",
+    "mockAlt": "Overview of a meeting’s follow-up",
+    "cta": {
+      "title": "Your next meeting, prepared in one evening.",
+      "text": "Show us your last notice; we’ll show you the next one."
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "One tool, <span>three ways to use it.</span>",
+    "copy": "Condo syndicate, manager of several buildings, or owner of a rental building: the same foundations, but not the same days. Pick yours.",
+    "who": [
+      {
+        "href": "/solutions/syndicats/",
+        "title": "Condo syndicates",
+        "text": "For a volunteer board of directors that wants to do things properly without giving up its evenings.",
+        "cta": "See it for a syndicate →"
+      },
+      {
+        "href": "/solutions/gestionnaires/",
+        "title": "Property managers",
+        "text": "For a manager who runs several buildings and must answer to each of their boards.",
+        "cta": "See it for a manager →"
+      },
+      {
+        "href": "/solutions/immeubles-locatifs/",
+        "title": "Rental and mixed buildings",
+        "text": "For an owner who wants the building’s history, rent tracking and repairs in one place.",
+        "cta": "See it for a rental building →"
+      }
+    ],
+    "metaTitle": "Solutions",
+    "metaDescription": "Immevia for condo syndicates, property managers and owners of rental or mixed buildings in Québec."
+  },
+  "syndicats": {
+    "eyebrow": "For condo syndicates",
+    "title": "Run your co-ownership <span>without it becoming a second job.</span>",
+    "copy": "You’re a volunteer, you have a life, and yet the fees have to come in, the roof has to be fixed, the meeting has to be held and the documents have to be where they should be when someone asks for them. Immevia was built for exactly that first — by someone who manages his own co-ownership.",
+    "painsLabel": "What changes",
+    "painsTitle": "The evenings you get back.",
+    "pains": [
+      {
+        "title": "Common expenses",
+        "text": "Fees are posted every month; Interac e-Transfers received by e-mail are recognized and matched automatically; late payers get a courteous reminder with a direct sign-in link. You only step in on exceptions."
+      },
+      {
+        "title": "Repairs",
+        "text": "A co-owner reports a leak with photos; you send a plumber a link; they set their visit, submit their quote and their invoice; the resident is informed at every step; the invoice becomes an expense. You made two clicks."
+      },
+      {
+        "title": "The meeting",
+        "text": "Notice, replies, reminders, assisted session with quorum and majorities, minutes sent. <a href=\"/assemblees/\">See how it unfolds →</a>"
+      },
+      {
+        "title": "Documents",
+        "text": "Insurance, declaration, by-laws, studies: filed, dated, and flagged before they expire. A new board inherits everything."
+      },
+      {
+        "title": "The monthly report",
+        "text": "A PDF generated every month — receipts, expenses, balances, arrears — ready to send to the board or to keep."
+      },
+      {
+        "title": "Bill 16",
+        "text": "Maintenance log, contingency-fund study: Immevia prepares the request to the professional, files their report and reminds you of renewals. <a href=\"/#loi-16\">Learn more →</a>"
+      }
+    ],
+    "fitLabel": "Is it for you?",
+    "fitTitle": "Yes, if…",
+    "fit": [
+      "you run a co-ownership of 4 to 60 units and do things yourself;",
+      "you want the next board to find everything without calling you;",
+      "your co-owners have an e-mail address and a phone — that’s all they need."
+    ],
+    "honest": "Immevia is used every day in a co-ownership in Rivière-des-Prairies, Montréal, by the syndicate manager who designed it. We would rather show you what it really does than quote clients we don’t have yet.",
+    "metaTitle": "For condo syndicates",
+    "metaDescription": "Immevia for a volunteer board of directors: common expenses, repairs through a contractor link, assisted meeting, a Living Record aligned with Bill 16.",
+    "secondaryLabel": "Other profiles",
+    "cta": {
+      "title": "Let’s talk about your building.",
+      "text": "A demo on your situation, and a clear price before any commitment."
+    }
+  },
+  "gestionnaires": {
+    "eyebrow": "For property managers",
+    "title": "Several buildings, several boards, <span>one place where it all happens.</span>",
+    "copy": "Each building has its record, its residents, its contractors, its meeting and its board to answer to. Immevia gives you a dashboard per building and an overview of what needs your attention today — not of what is going fine.",
+    "painsLabel": "What changes",
+    "painsTitle": "Fewer spreadsheets, fewer e-mails, more evidence.",
+    "pains": [
+      {
+        "title": "Management by exception",
+        "text": "A short list per building: decision pending, deadline approaching, silence that drags on. The rest doesn’t show."
+      },
+      {
+        "title": "Frictionless contractors",
+        "text": "Your contractor book by trade, with residents’ ratings. One job = one link; they have no account to create and you see every step."
+      },
+      {
+        "title": "Accountability",
+        "text": "Monthly report per building, a log of every action, meeting decisions with their schedule: you show, you don’t tell."
+      },
+      {
+        "title": "Informed boards, served residents",
+        "text": "The board sees the documents and the decisions; residents see their requests and their statement; nobody sees what isn’t theirs to see."
+      },
+      {
+        "title": "Taking over a building",
+        "text": "When you take on a mandate, you build the Living Record over the months; when you leave, it stays with the syndicate. That’s a selling point for you."
+      },
+      {
+        "title": "Meetings in series",
+        "text": "The same preparation for every building, without reinventing the notice. <a href=\"/assemblees/\">See how it unfolds →</a>"
+      }
+    ],
+    "fitLabel": "Is it for you?",
+    "fitTitle": "Yes, if…",
+    "fit": [
+      "you manage between 2 and 30 small or mid-size buildings;",
+      "you answer to boards of directors that want evidence, not promises;",
+      "you prefer a tool that leaves you alone when everything is fine."
+    ],
+    "honest": "The multi-building view is under construction: today the platform manages one building per workspace, with a building switcher. We say so in demos, and we are building what comes next with the first managers.",
+    "metaTitle": "For property managers",
+    "metaDescription": "Immevia for a manager of several buildings: management by exception, contractor book, reports per building, transferable records.",
+    "secondaryLabel": "Other profiles",
+    "cta": {
+      "title": "Let’s talk about your building.",
+      "text": "A demo on your situation, and a clear price before any commitment."
+    }
+  },
+  "locatifs": {
+    "eyebrow": "For rental and mixed buildings",
+    "title": "Your building’s history, <span>and your tenants’ follow-up.</span>",
+    "copy": "A plex, a ten-unit building, a commercial ground floor with condos above: the same needs as a co-ownership — repairs, documents, deadlines — plus rents to collect and tenants to serve.",
+    "painsLabel": "What changes",
+    "painsTitle": "What you no longer have to keep in your head.",
+    "pains": [
+      {
+        "title": "Rents and payments",
+        "text": "Rents expected every month, transfers received and matched automatically, late payments flagged with a reminder. The advances you make out of pocket are tracked until repaid."
+      },
+      {
+        "title": "Repairs",
+        "text": "The tenant reports with photos and availability; the contractor gets a link; the visit is set without phone tag; the invoice becomes an expense."
+      },
+      {
+        "title": "Building file",
+        "text": "Roof, heating, plumbing, insurance: every intervention and every document accumulates. When you sell, the file is worth something."
+      },
+      {
+        "title": "Expenses and receipts",
+        "text": "A photo of the receipt is enough: the platform reads the amount and the supplier, you confirm the category. Year end without the shoebox."
+      },
+      {
+        "title": "Informed tenants",
+        "text": "A simple portal on their phone: their requests, the building’s notices, a sign-in link with no password."
+      },
+      {
+        "title": "Mixed",
+        "text": "Condo units and rental apartments in the same building? Same record, same tools: the vocabulary adapts to each, and the building’s history stays one."
+      }
+    ],
+    "fitLabel": "Is it for you?",
+    "fitTitle": "Yes, if…",
+    "fit": [
+      "you own 1 to 20 small rental buildings;",
+      "you want a clean history of the building, not just bookkeeping;",
+      "your tenants have an e-mail address and a phone."
+    ],
+    "honest": "The vocabulary adapts to the type of building (“apartment” rather than “unit”, “tenant” rather than “co-owner”), but the engine is a co-ownership’s. Rental-specific features (leases, renewals, the TAL) are not covered yet — tell us what you need.",
+    "metaTitle": "For rental and mixed buildings",
+    "metaDescription": "Immevia for the owner of a rental or mixed building: rents matched automatically, repairs through a link, a building file that gains value.",
+    "secondaryLabel": "Other profiles",
+    "cta": {
+      "title": "Let’s talk about your building.",
+      "text": "A demo on your situation, and a clear price before any commitment."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "One price per door, <span>no surprises.</span>",
+    "copy": "Immevia is billed by the number of units (“doors”) in the building, per month. No per-user fees: all your co-owners, board members and contractors are included.",
+    "big": "On quote — by the number of doors",
+    "includes": [
+      "Every feature: maintenance, Living Record, finances, meetings, resident portal",
+      "Unlimited residents, board members and contractors",
+      "E-mails and sign-in links included",
+      "Your documents and reports stay downloadable at any time",
+      "No long-term commitment"
+    ],
+    "cardsTitle": "Two ways to start",
+    "cards": [
+      {
+        "title": "You run your own building",
+        "text": "A 30-minute demo on your situation, then a fixed monthly price for your building. We help you set up the record and invite the residents."
+      },
+      {
+        "title": "You manage several buildings",
+        "text": "A decreasing price per door based on the number of buildings, and help taking over the first records. Let’s talk about your portfolio."
+      }
+    ],
+    "honest": "We don’t publish a price grid yet: the platform is used by its first buildings and the price is set with them, building by building. You will have a clear written figure before committing to anything.",
+    "metaTitle": "Pricing",
+    "metaDescription": "Immevia is billed per door, per month, all features and all users included, with no long-term commitment. Price on request by building size.",
+    "heroCta": "Get a price for my building ↗",
+    "includesTitle": "What is always included:",
+    "cta": {
+      "title": "A clear figure, in writing.",
+      "text": "Tell us the number of units and the type of building; you’ll get a quick answer.",
+      "label": "Request a price ↗"
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "What people ask us <span>before getting started.</span>",
+    "copy": "Straight answers. If yours is missing, write to us.",
+    "groups": [
+      {
+        "title": "Getting started",
+        "items": [
+          {
+            "q": "How long does it take to set up a building?",
+            "a": "<p>One evening for the basics: the building, its units, its residents (name, e-mail, phone). Documents and history are added over the following weeks — the Living Record is designed to build up gradually, not to be filled in one go.</p>"
+          },
+          {
+            "q": "Do residents have to install anything?",
+            "a": "<p>No. They receive an e-mail with a link that signs them in directly, no password. On a phone, the portal can be added to the home screen like an app in two taps. A password remains possible for those who prefer one.</p>"
+          },
+          {
+            "q": "What about co-owners without an e-mail address?",
+            "a": "<p>You can enter things on their behalf (meeting attendance, maintenance request, payment by cheque). They appear in the record like everyone else; they simply don’t receive the automatic e-mails.</p>"
+          },
+          {
+            "q": "Can we bring in our Excel history?",
+            "a": "<p>Past payments and expenses can be imported from a CSV file (exported from your spreadsheet or your bank statement). Existing documents upload in batches and the recognition suggests where to file them.</p>"
+          }
+        ]
+      },
+      {
+        "title": "Day to day",
+        "items": [
+          {
+            "q": "How do contractors use Immevia?",
+            "a": "<p>They don’t create an account. When you assign them a job, they receive a personal link (by e-mail, or by text if you copy it) that opens a page with the request, the photos and the resident’s availability. There they accept, set the visit, submit their quote, “after” photos and invoice. The link stays valid for the duration of the job.</p>"
+          },
+          {
+            "q": "Who sees quotes and invoices?",
+            "a": "<p>The syndicate manager or property manager only. Residents see the progress of their request (contractor assigned, visit scheduled, work completed) and the photos, never the amounts.</p>"
+          },
+          {
+            "q": "How do payment reminders work?",
+            "a": "<p>Fees are posted every month. Interac e-Transfers received at the syndicate’s e-mail address are recognized and matched automatically; whatever isn’t recognized is presented to you for one-click matching. Late payers get a courteous reminder with a direct sign-in link, at the cadence you choose.</p>"
+          },
+          {
+            "q": "And the general meeting?",
+            "a": "<p>Notice with attached documents, one-click attendance replies, reminders to those who haven’t replied, assisted session (attendance, quorum, majorities), minutes generated and sent, decisions added to the schedule. <a href=\"/assemblees/\">The full flow →</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Data and security",
+        "items": [
+          {
+            "q": "Where is our data hosted?",
+            "a": "<p>The database and the documents are hosted in Canada (Montréal region). Some processing — the application servers, e-mail delivery, automatic document recognition — takes place in the United States with established providers. The full list is in our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French).</p>"
+          },
+          {
+            "q": "Who has access to what?",
+            "a": "<p>Each person sees only what belongs to their role and their building: a resident sees their unit, a board member sees the building, a contractor sees their job. Documents are served through signed, time-limited links, never a public address. Every action is logged.</p>"
+          },
+          {
+            "q": "Can we get our data back if we leave?",
+            "a": "<p>Yes. Your documents, monthly reports and minutes are files you can download at any time; your financial data and history are handed over on request in a usable format. The record belongs to the syndicate, not to us.</p>"
+          },
+          {
+            "q": "Does Immevia give legal advice?",
+            "a": "<p>No. Immevia is a management tool. The syndicate’s obligations (Civil Code, declaration of co-ownership, Bill 16 and its regulations) remain its own; the platform helps organize them, document them and not miss their deadlines.</p>"
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Frequently asked questions",
+    "metaDescription": "Setup, residents without accounts, contractors by link, payment reminders, data hosting, role-based access, leaving: the answers.",
+    "cta": {
+      "title": "Your question isn’t here?",
+      "text": "Write to us; the answer will go here for the next person.",
+      "label": "Write to us ↗"
+    }
+  }
+}
