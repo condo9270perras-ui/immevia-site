@@ -10,6 +10,7 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { layout, setStrings } from './src/layout.mjs'
 import { ROUTES, LANGS, localize } from './src/routes.mjs'
+import { setShotDir } from './src/mocks.mjs'
 
 const root = dirname(fileURLToPath(import.meta.url))
 const out = join(root, 'dist')
@@ -29,6 +30,7 @@ for (const lang of LANGS) {
   const t = JSON.parse(readFileSync(join(root, `content/${lang}.json`), 'utf8'))
   t.lang = lang
   setStrings(t.ui)
+  setShotDir(lang === 'fr' ? '' : lang + '/')
   for (const page of pages) {
     const content = t[page.key]
     if (!content) throw new Error(`content/${lang}.json has no "${page.key}"`)

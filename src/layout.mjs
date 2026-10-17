@@ -41,7 +41,7 @@ ${LANGS.map((l) => `<link rel="alternate" hreflang="${l === 'fr' ? 'fr-CA' : 'en
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${site}/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
-${(page.preload ?? []).map((u) => `<link rel="preload" as="image" href="${u}" fetchpriority="high">`).join('')}
+${(typeof page.preload === 'function' ? page.preload(lang) : page.preload ?? []).map((u) => `<link rel="preload" as="image" href="${u}" fetchpriority="high">`).join('')}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="description" content="${esc(description)}">
 <title>${esc(title)}</title>

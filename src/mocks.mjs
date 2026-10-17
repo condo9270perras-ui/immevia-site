@@ -4,8 +4,11 @@
 // @exemple.immevia.ca addresses). Bare rectangles, no device bezels. The
 // Dossier vivant frame stays a built mock because it is a three-stage scroll
 // sequence, not a single screen. Images live in static/shots/ (WebP, 2x).
+let shotDir = ''
+/** Per-language screenshot folder ('' for French, 'en/' for English); set by build.mjs. */
+export function setShotDir(d) { shotDir = d }
 export const shot = (name, w, h, alt, { phone = false, eager = false } = {}) => `
-<figure class="shot${phone ? ' shot-phone' : ''}"><img src="/shots/${name}.webp" width="${w}" height="${h}" alt="${alt}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></figure>`
+<figure class="shot${phone ? ' shot-phone' : ''}"><img src="/shots/${shotDir}${name}.webp" width="${w}" height="${h}" alt="${alt}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></figure>`
 
 const dot = (tone) => `<span class="mdot ${tone}"></span>`
 const row = (tone, b, s, extra = '') => `<div class="mock-row${extra}">${dot(tone)}<div><b>${b}</b><span>${s}</span></div></div>`
