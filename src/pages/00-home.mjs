@@ -8,7 +8,7 @@ import { mocks } from '../mocks.mjs'
 
 export const key = 'home'
 export const priority = '1.0'
-export const preload = ['/shots/ticket-admin.webp']
+export const preload = (lang) => [`/shots/${lang === 'fr' ? '' : lang + '/'}ticket-admin.webp`]
 export const jsonld = (c) => ({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Immevia', applicationCategory: 'BusinessApplication', operatingSystem: 'Web', url: 'https://immevia.ca/', description: c.jsonldDescription, publisher: { '@type': 'Organization', name: 'Moubarak Technologies', url: 'https://immevia.ca/' } })
 
 const label = (t) => `<span class="eyebrow">${t}</span>`
