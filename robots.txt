@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://immevia.ca/sitemap.xml
