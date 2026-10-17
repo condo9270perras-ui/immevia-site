@@ -1,23 +1,28 @@
 # Immevia — site public (immevia.ca)
 
-Site vitrine d’Immevia, produit de **Moubarak Technologies**. Site statique, sans dépendances ni étape de build : les fichiers de ce dépôt sont servis tels quels par Netlify.
+Site vitrine d’Immevia, produit de **Moubarak Technologies**. Site statique généré par un petit script Node (aucune dépendance) : `node build.mjs` assemble les pages dans `dist/`, que Netlify publie.
 
 ## Production
 - Domaine : https://immevia.ca (www → redirection), DNS chez GoDaddy (A `@` → 75.2.60.5)
 - Hébergement : Netlify (site « silly-syrniki-98fffe »), HTTPS Let’s Encrypt géré par Netlify
 - Formulaire : Netlify Forms, nom `demo-request`, page de confirmation `/merci.html`, notification courriel configurée dans Netlify
-- Déploiement : **push sur `main` = mise en production** (une fois le site Netlify lié à ce dépôt)
+- Déploiement : **push sur `main` = mise en production** ; chaque *pull request* reçoit un aperçu Netlify
+- Dépôt public (requis par le plan Netlify gratuit pour les commits de plusieurs auteurs) — ne jamais y mettre de secret
 
-## Fichiers
-| Fichier | Rôle |
+## Structure
+| Chemin | Rôle |
 |---|---|
-| `index.html` | page d’accueil (CSS et JS en ligne, bascule FR/EN en JavaScript) |
-| `merci.html` | confirmation après le formulaire |
-| `404.html` | page introuvable |
-| `confidentialite.html`, `conditions.html` | pages légales — **brouillons**, à finaliser avant commercialisation |
-| `favicon.svg` | icône |
-| `robots.txt`, `sitemap.xml` | SEO |
-| `netlify.toml` | dossier publié + en-têtes de sécurité |
+| `build.mjs` | génère `dist/` : pages, sitemap, copie de `static/` |
+| `src/layout.mjs` | en-tête, navigation, pied de page, blocs réutilisables (`ui.*`) |
+| `src/styles.css` | feuille de style unique (inline dans chaque page) |
+| `src/pages/*.mjs` | une page = un module (`path`, `canonical`, `title`, `description`, `body`) |
+| `content/fr.json` | tous les textes, par page — modifier ici pour changer une phrase ; `en.json` viendra pour `/en/` |
+| `static/` | fichiers servis tels quels : favicon, image de partage, robots, pages légales, merci, 404 |
+| `netlify.toml` | commande de build, dossier publié, en-têtes de sécurité |
+
+Pages : `/` · `/plateforme/` · `/dossier-vivant/` · `/assemblees/` · `/solutions/` (+ `syndicats/`, `gestionnaires/`, `immeubles-locatifs/`) · `/tarifs/` · `/faq/` · pages légales (brouillons, `noindex`).
+
+Pour voir le site en local : `node build.mjs && cd dist && python3 -m http.server 8000`.
 
 ## Façon de travailler
 1. Créer une branche (`git checkout -b ma-modif`), modifier, pousser.
