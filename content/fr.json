@@ -1,9 +1,115 @@
 {
   "home": {
-    "assembliesLabel": "Assemblée générale",
-    "assembliesTitle": "L’assemblée annuelle,<br>sans la course.",
-    "assembliesCopy": "Convocation envoyée en quelques clics avec l’ordre du jour et les documents, réponses de présence suivies automatiquement, relance d’un tap, séance menée à l’écran avec les majorités calculées, procès-verbal généré et transmis. Les décisions prises se retrouvent directement dans l’échéancier de l’immeuble.",
-    "assembliesCta": "Voir comment ça se passe ↗"
+    "eyebrow": "Gestion immobilière · Québec",
+    "h1": "Un immeuble <span>qui se souvient.</span>",
+    "sub": "Entretien, finances, documents, assemblées et communications — dans un seul dossier qui s’enrichit à chaque geste. Pour les syndicats de copropriété, les gestionnaires et les propriétaires d’immeubles.",
+    "ctaPrimary": "Demander une démo ↗",
+    "ctaSecondary": "Voir comment ça marche ↓",
+    "cred": "Conçue par un syndic, pour les syndics — utilisée chaque jour dans une copropriété de Montréal.",
+    "credFacts": [
+      "Montréal",
+      "Français d’abord",
+      "Données hébergées au Canada"
+    ],
+    "attLabel": "Gestion par exception",
+    "attTitle": "Vous n’avez pas à chercher.<br>Immevia vous dit quoi regarder.",
+    "attCopy": "Le quotidien reste silencieux. La plateforme fait remonter seulement ce qui demande une décision ou une action.",
+    "att": [
+      {
+        "title": "Décision attendue",
+        "text": "Une soumission à approuver, une facture à enregistrer. Au-dessus du seuil du conseil, la décision doit être notée avant d’approuver."
+      },
+      {
+        "title": "Échéance qui approche",
+        "text": "Assurance, contrat d’entretien, étude du fonds de prévoyance : signalés avant qu’il ne soit trop tard."
+      },
+      {
+        "title": "Silence qui dure",
+        "text": "Une demande sans réponse depuis 48 h, un entrepreneur qui n’a pas ouvert son lien : en tête de liste."
+      }
+    ],
+    "flowLabel": "Trois gestes, un seul fil",
+    "flowTitle": "Une fuite signalée. Une assemblée tenue.<br>Un paiement reçu.",
+    "flowCopy": "Chaque geste du quotidien laisse une trace au bon endroit du dossier — sans ressaisie.",
+    "tabs": [
+      {
+        "key": "entretien",
+        "label": "Entretien",
+        "title": "Le résident signale, l’entrepreneur reçoit un lien, vous approuvez.",
+        "text": "Photos et disponibilités du résident ; lien personnel pour l’entrepreneur, sans compte ; visite, soumission, photos « après », facture — chaque étape sur le fil, la facture devient une dépense.",
+        "link": "/plateforme/"
+      },
+      {
+        "key": "assemblee",
+        "label": "Assemblée",
+        "title": "Convocation, présences, séance, procès-verbal.",
+        "text": "Réponses en un clic depuis le courriel, relance d’un tap, quorum et majorités calculés en séance, PV généré et transmis, décisions versées à l’échéancier.",
+        "link": "/assemblees/"
+      },
+      {
+        "key": "finances",
+        "label": "Finances",
+        "title": "Les virements se rapprochent tout seuls.",
+        "text": "Charges affichées chaque mois, virements Interac reconnus et rapprochés, retards rappelés avec un lien de connexion directe, rapport mensuel en PDF.",
+        "link": "/plateforme/"
+      }
+    ],
+    "dvLabel": "Le Dossier vivant",
+    "dvTitle": "Un immeuble commence en fragments.<br>Il finit en mémoire.",
+    "dvSteps": [
+      {
+        "year": "Année 1",
+        "title": "Des fragments",
+        "text": "Factures, photos, rapports, courriels, procès-verbaux : chacun quelque part, chez quelqu’un."
+      },
+      {
+        "year": "Année 2",
+        "title": "Un dossier",
+        "text": "Chaque pièce datée, rattachée à une composante de l’immeuble, avec son échéance. Ce qui expire est signalé d’avance."
+      },
+      {
+        "year": "Année 5",
+        "title": "Une mémoire",
+        "text": "Un nouveau conseil hérite de tout, le jour où il arrive. Chaque intervention a rendu le dossier plus précieux."
+      }
+    ],
+    "dvClose": "Quand un administrateur part, ce qu’il savait part avec lui — sauf si l’immeuble s’en souvient.",
+    "dvCta": "Découvrir le Dossier vivant →",
+    "whoLabel": "Pour qui",
+    "whoTitle": "Est-ce pour un immeuble comme le vôtre ?",
+    "who": [
+      {
+        "href": "/solutions/syndicats/",
+        "title": "Syndicats de copropriété",
+        "text": "Faire les choses correctement sans y passer ses soirées."
+      },
+      {
+        "href": "/solutions/gestionnaires/",
+        "title": "Gestionnaires immobiliers",
+        "text": "Plusieurs immeubles, plusieurs conseils à qui rendre des comptes."
+      },
+      {
+        "href": "/solutions/immeubles-locatifs/",
+        "title": "Immeubles locatifs et mixtes",
+        "text": "L’historique du bâtiment, les loyers et les réparations, au même endroit."
+      }
+    ],
+    "qcLabel": "Québec · Copropriété",
+    "qcTitle": "Loi 16, carnet d’entretien, fonds de prévoyance.",
+    "qcText": "Immevia prépare les demandes aux professionnels, classe leurs rapports et vous rappelle les renouvellements. Elle ne remplace ni un professionnel habilité ni un avis juridique.",
+    "qcList": [
+      "Documents de référence centralisés et datés",
+      "Entretiens et interventions suivis",
+      "Historique du bâtiment conservé",
+      "Prochaines échéances visibles"
+    ],
+    "qcCta": "Consulter les règles officielles ↗",
+    "priceLabel": "Tarifs et démo",
+    "priceTitle": "Un prix par porte, par mois, tout inclus.",
+    "priceText": "Résidents, administrateurs et entrepreneurs en nombre illimité. Une soirée pour mettre l’immeuble en place. Un chiffre clair, par écrit, avant tout engagement.",
+    "priceLink": "Voir les tarifs →",
+    "formTitle": "Demandez une présentation",
+    "formNote": "Trente minutes, votre cas, rien que nous ne puissions montrer à l’écran."
   },
   "platform": {
     "eyebrow": "La plateforme",

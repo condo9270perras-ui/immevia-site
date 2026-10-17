@@ -8,12 +8,12 @@ export const NAV = [
   { href: '/faq/', key: 'navFaq', label: 'FAQ' },
 ]
 
+export const APP_URL = 'https://propmanage-production.up.railway.app' // → https://app.immevia.ca once the custom domain is live
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
 export function layout({ site, css, lang, page, body }) {
   const canonical = site + page.canonical
   const title = page.fullTitle ?? `${page.title} — Immevia`
-  const isHome = page.key === 'home'
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -33,6 +33,7 @@ export function layout({ site, css, lang, page, body }) {
 <meta property="og:locale" content="fr_CA">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${site}/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="description" content="${esc(page.description)}">
 <title>${esc(title)}</title>
@@ -40,7 +41,7 @@ ${page.jsonld ? `<script type="application/ld+json">${JSON.stringify(page.jsonld
 <style>${css}</style>
 </head>
 <body><a class="skip" href="#main">Aller au contenu</a>
-<header><nav class="wrap"><a class="logo" href="/" aria-label="Immevia — accueil"><span class="mark">⌂</span> immevia<span style="color:#9E3B2C">.</span></a><button class="mobile-toggle" id="mobileToggle" aria-label="Menu" aria-expanded="false" aria-controls="navlinks">☰</button><div class="navlinks" id="navlinks">${NAV.map((n) => `<a href="${n.href}"${page.canonical.startsWith(n.href) ? ' aria-current="page" class="on"' : ''}${isHome ? ` data-i="${n.key}"` : ''}>${n.label}</a>`).join('')}${isHome ? '<button class="lang" id="lang" aria-label="Switch to English">EN</button>' : ''}<a href="/#contact" class="btn dark"${isHome ? ' data-i="navDemo"' : ''}>Demander une démo ↗</a></div></nav></header>
+<header><nav class="wrap"><a class="logo" href="/" aria-label="Immevia — accueil"><span class="mark">⌂</span> immevia<span style="color:#9E3B2C">.</span></a><button class="mobile-toggle" id="mobileToggle" aria-label="Menu" aria-expanded="false" aria-controls="navlinks">☰</button><div class="navlinks" id="navlinks">${NAV.map((n) => `<a href="${n.href}"${page.canonical.startsWith(n.href) ? ' aria-current="page" class="on"' : ''}>${n.label}</a>`).join('')}<a href="${APP_URL}/auth/login" class="login">Connexion</a><a href="/#contact" class="btn dark">Demander une démo ↗</a></div></nav></header>
 <main id="main">
 ${body}
 </main>
