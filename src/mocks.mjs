@@ -1,71 +1,37 @@
-// src/mocks.mjs — product-faithful frames, built from the app's own bones
-// (lead cells, timeline rows, chips). Bare rectangles, no device bezels. Every
-// figure is illustrative. To be replaced by real screenshots from the demo
-// building; keep the same outer markup so the swap is one line per frame.
+// src/mocks.mjs — product frames for the homepage.
+// Five of them are real screenshots of the app, taken on the fictional demo
+// building "Les Jardins Exemple" (invented residents, 555 phone numbers,
+// @exemple.immevia.ca addresses). Bare rectangles, no device bezels. The
+// Dossier vivant frame stays a built mock because it is a three-stage scroll
+// sequence, not a single screen. Images live in static/shots/ (WebP, 2x).
+const shot = (name, w, h, alt, { phone = false, eager = false } = {}) => `
+<figure class="shot${phone ? ' shot-phone' : ''}"><img src="/shots/${name}.webp" width="${w}" height="${h}" alt="${alt}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></figure>`
+
 const dot = (tone) => `<span class="mdot ${tone}"></span>`
 const row = (tone, b, s, extra = '') => `<div class="mock-row${extra}">${dot(tone)}<div><b>${b}</b><span>${s}</span></div></div>`
 const lead = (cells) => `<div class="mock-lead">${cells.map((c) => `<div><small>${c.k}</small><strong class="${c.tone ?? ''}">${c.v}</strong>${c.d ? `<span class="mock-d">${c.d}</span>` : ''}</div>`).join('')}</div>`
 const head = (title, chip, tone = 'red') => `<div class="mock-h"><b>${title}</b><span class="chip ${tone}">${chip}</span></div>`
 
 export const mocks = {
-  /** Hero: the ticket page with a decision waiting. `live` adds the arriving-event loop (CSS, reduced-motion safe). */
-  ticket: ({ live = false } = {}) => `
-<div class="mock mock-hero${live ? ' live' : ''}" role="img" aria-label="Aperçu d’une demande d’entretien dans Immevia : soumission à approuver, visite planifiée, entrepreneur mandaté par lien">
-  ${head('Infiltration d’eau au plafond du balcon', 'Décision attendue')}
-  <div class="mock-sub"><span class="mono">MT-0012</span> · Condo 6 · Structure / bâtiment · priorité <b>élevée</b></div>
-  ${lead([{ k: 'Où ça en est', v: 'Soumission à approuver', tone: 'red' }, { k: 'Entrepreneur', v: 'Toitures Lavoie', d: 'a ouvert son lien' }, { k: 'Soumission', v: '1 450,00 $', d: 'sous le seuil (2 000 $)' }])}
-  <div class="mock-act"><b>Soumission reçue : 1 450,00 $ — « Reprise du solin et scellant, garantie 2 ans »</b><span class="btn dark sm">Approuver et lancer les travaux</span></div>
-  ${row('amber', 'Visite planifiée : jeudi 16 oct., 8 h – 10 h', 'résident prévenu · « je ne serai pas là » disponible', ' mock-new')}
-  ${row('green', 'Toitures Lavoie a accepté le travail', 'lien ouvert 14 min après l’envoi')}
-  ${row('grey', 'Demande envoyée avec 3 photos', 'disponibilités : soirs de semaine')}
-</div>`,
+  /** Hero: the ticket page with a decision waiting (admin side). */
+  ticket: () => shot('ticket-admin', 1920, 1680, 'Page d’une demande d’entretien dans Immevia : « Soumission à approuver », entrepreneur Toitures Lavoie, 1 450 $, fil du dossier avec le bouton Approuver et lancer les travaux', { eager: true }),
 
-  /** Section 3: the queue, calm by default. */
-  attention: () => `
-<div class="mock" role="img" aria-label="Aperçu de la liste À suivre : ce qui demande une décision cette semaine">
-  ${head('À suivre · cette semaine', '3 à régler', 'amber')}
-  ${row('red', 'Soumission à approuver — Toitures Lavoie, 1 450 $', 'MT-0012 · reçue hier')}
-  ${row('red', 'Facture à enregistrer — Plomberie Rivière, 312,50 $', 'MT-0009 · conforme à la soumission')}
-  ${row('amber', 'Police d’assurance — expire dans 23 jours', 'la preuve en place est datée du 25 nov.')}
-  ${row('amber', 'Entrepreneur sans réponse depuis 3 jours', 'MT-0011 · lien jamais ouvert')}
-  <div class="mock-quiet">Tout le reste est en ordre. <span class="mono">4 tickets en cours · 7 / 7 charges reçues</span></div>
-</div>`,
+
+  /** Section 3: the queue, grouped by what blocks. */
+  attention: () => shot('queue', 1920, 1440, 'Liste Maintenance d’Immevia groupée par ce qui bloque : décision attendue, sans réponse depuis 48 h, nouvelles à trier'),
+
 
   /** Tab: maintenance — the contractor's phone page, no account. */
-  entretien: () => `
-<div class="phone" role="img" aria-label="Aperçu de la page de l’entrepreneur sur téléphone : accepter, choisir un moment, envoyer une soumission">
-  <div class="scr">
-    <div class="top"><small>Syndicat 9270 Perras</small><b>Demande de travaux · MT-0012</b></div>
-    <div class="bx"><b>Infiltration d’eau au plafond du balcon</b><p>Condo 6 · 3 photos · Le résident est disponible : soirs de semaine après 17 h, jeudi matin.</p></div>
-    <div class="bx"><b>1. Acceptez-vous ce travail ?</b><div class="row"><span class="go">Oui, j’accepte</span><span>Pas disponible</span></div></div>
-    <div class="bx"><b>2. Quand passez-vous ?</b><p>jeudi 16 oct., 8 h – 10 h</p></div>
-    <div class="bx"><b>3. Votre soumission</b><p>1 450,00 $ · Reprise du solin et scellant</p></div>
-    <div class="bx" style="border-style:dashed;background:#FBFAF7"><b>4. Après les travaux</b><p>Photos « après » et facture, par le même lien.</p></div>
-  </div>
-</div>`,
+  entretien: () => shot('contractor', 1125, 1900, 'Page de l’entrepreneur sur téléphone : travail accepté, visite jeudi 22 oct. 8 h – 10 h, soumission de 1 450 $ envoyée, photos après travaux', { phone: true }),
+
 
   /** Tab: assembly follow-up. */
-  assemblee: () => `
-<div class="mock" role="img" aria-label="Aperçu du suivi d’une assemblée : réponses, quorum, relance, procès-verbal">
-  ${head('Assemblée annuelle · 28 octobre', 'PV transmis', 'green')}
-  ${lead([{ k: 'Réponses', v: '6 / 7', tone: 'green', d: '1 relancé hier' }, { k: 'Quorum', v: 'Atteint', tone: 'green', d: 'présents + représentés' }, { k: 'Documents', v: '4 joints', d: 'états financiers, budget' }])}
-  ${row('green', 'Convocation envoyée aux 7 unités', 'test reçu avant l’envoi')}
-  ${row('amber', 'Relance envoyée à l’unité sans réponse', 'un tap')}
-  ${row('grey', 'Séance : présences, quorum, 6 points votés', 'majorités affichées')}
-  ${row('green', 'Procès-verbal généré et transmis', 'classé au Dossier vivant')}
-  <div class="mock-act ok"><b>Obligation votée → échéancier</b><span>Remplacement du chauffe-eau commun avant le 30 juin</span></div>
-</div>`,
+  assemblee: () => shot('assemblee', 1920, 1500, 'Suivi d’une assemblée annuelle : convocation envoyée à 6 destinataires, 6 copropriétaires sur 6 avec courriel, étapes faites et prochaine étape « Tenir l’assemblée »'),
 
-  /** Tab: finances — Interac reconciliation. */
-  finances: () => `
-<div class="mock" role="img" aria-label="Aperçu du rapprochement des paiements : virements Interac reconnus automatiquement">
-  ${head('Charges d’octobre', '7 / 7 reçues', 'green')}
-  ${lead([{ k: 'Attendu', v: '3 150,00 $' }, { k: 'Reçu', v: '3 150,00 $', tone: 'green' }, { k: 'En retard', v: '0', tone: 'green', d: 'rappels : aucun' }])}
-  ${row('green', 'Virement Interac — Condo 3 · 450,00 $', 'reconnu depuis le courriel, rapproché automatiquement')}
-  ${row('green', 'Virement Interac — Condo 6 · 450,00 $', 'reconnu, rapproché')}
-  ${row('amber', 'Chèque — Condo 1 · 450,00 $', 'saisi par le syndic')}
-  ${row('grey', 'Rapport mensuel de septembre', 'PDF généré · transmis au conseil')}
-</div>`,
+
+  /** Tab: finances — collections at a glance. */
+  finances: () => shot('finances', 1920, 1420, 'Finances d’Immevia : 450 $ à percevoir, 88 % perçu ce mois (7 unités sur 8), une unité en retard avec les boutons Relancer et Paiement'),
+
 
   /** Section 5: one stage, three states (data-stage on the section). */
   dossierVivant: () => {
