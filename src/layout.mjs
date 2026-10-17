@@ -8,7 +8,7 @@ export const NAV = [
   { href: '/faq/', key: 'navFaq', label: 'FAQ' },
 ]
 
-export const APP_URL = 'https://propmanage-production.up.railway.app' // → https://app.immevia.ca once the custom domain is live
+export const APP_URL = 'https://app.immevia.ca'
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
 export function layout({ site, css, lang, page, body }) {
