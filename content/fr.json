@@ -1,0 +1,486 @@
+{
+  "home": {
+    "assembliesLabel": "Assemblée générale",
+    "assembliesTitle": "L’assemblée annuelle,<br>sans la course.",
+    "assembliesCopy": "Convocation envoyée en quelques clics avec l’ordre du jour et les documents, réponses de présence suivies automatiquement, relance d’un tap, séance menée à l’écran avec les majorités calculées, procès-verbal généré et transmis. Les décisions prises se retrouvent directement dans l’échéancier de l’immeuble.",
+    "assembliesCta": "Voir comment ça se passe ↗"
+  },
+  "platform": {
+    "eyebrow": "La plateforme",
+    "title": "Tout ce qu’un immeuble demande, <span>au même endroit.</span>",
+    "copy": "Immevia réunit l’entretien, les finances, les documents, les assemblées et les communications d’un immeuble dans un seul espace — avec une mémoire qui s’enrichit à chaque geste.",
+    "areasLabel": "Cinq domaines, un seul dossier",
+    "areasTitle": "Ce que la plateforme fait, concrètement.",
+    "areas": [
+      {
+        "icon": "⚒",
+        "title": "Entretien et demandes",
+        "text": "Les résidents signalent un problème depuis leur téléphone, avec photos et disponibilités. Vous mandatez un entrepreneur par un lien personnel — sans compte pour lui — qui accepte, fixe la visite, dépose sa soumission, ses photos « après » et sa facture. Chaque étape apparaît sur le fil du dossier, et la facture devient une dépense en un geste."
+      },
+      {
+        "icon": "▤",
+        "title": "Dossier vivant",
+        "text": "Assurance, contrats, études, certificats, plans : chaque document est une preuve datée, rattachée à une composante de l’immeuble. Ce qui expire est signalé avant l’échéance ; ce qui manque est listé. Le dossier reste quand les administrateurs changent."
+      },
+      {
+        "icon": "◫",
+        "title": "Finances",
+        "text": "Charges communes, paiements reçus, dépenses avec reçus, avances et remboursements. Les virements Interac reçus par courriel sont reconnus et rapprochés automatiquement ; les retards déclenchent des rappels courtois, avec un lien de connexion directe pour le résident."
+      },
+      {
+        "icon": "◉",
+        "title": "Assemblées",
+        "text": "Convocation, ordre du jour, documents joints, réponses de présence, relances, séance assistée (présences, quorum, majorités), procès-verbal généré et transmis. Les obligations votées passent dans l’échéancier."
+      },
+      {
+        "icon": "✉",
+        "title": "Communications et portail",
+        "text": "Chaque résident a son portail — installable sur le téléphone comme une application — avec ses demandes, son relevé, les documents de l’immeuble et les avis. Connexion par lien courriel, sans mot de passe à retenir."
+      }
+    ],
+    "exceptionLabel": "Gestion par exception",
+    "exceptionTitle": "Vous n’avez pas à chercher.<br>Immevia vous dit quoi regarder.",
+    "exceptionCopy": "Le quotidien reste silencieux. La plateforme fait remonter seulement ce qui demande une décision ou une action : une soumission à approuver, une facture à enregistrer, un entrepreneur qui n’a pas répondu, une police d’assurance qui expire, un paiement en retard, une pièce manquante au dossier.",
+    "exceptions": [
+      {
+        "title": "Décision attendue",
+        "text": "Une soumission dépasse le seuil d’approbation du conseil : la plateforme exige que la décision soit notée avant d’approuver."
+      },
+      {
+        "title": "Échéance qui approche",
+        "text": "Assurance, contrat d’entretien, étude du fonds de prévoyance : signalés avant qu’il ne soit trop tard, avec la preuve en place qui expire."
+      },
+      {
+        "title": "Silence qui dure",
+        "text": "Une demande sans réponse depuis plus de 48 h, un entrepreneur qui n’a pas ouvert son lien : vous le voyez en tête de liste."
+      }
+    ],
+    "rolesLabel": "Qui voit quoi",
+    "rolesTitle": "La bonne information à la bonne personne — et rien de plus.",
+    "roles": [
+      {
+        "title": "Syndic ou gestionnaire",
+        "text": "Tout le dossier, toutes les décisions, l’historique complet. Chaque action est journalisée."
+      },
+      {
+        "title": "Conseil d’administration",
+        "text": "Les documents, les rapports mensuels, les décisions à prendre — sans accès aux données personnelles des résidents."
+      },
+      {
+        "title": "Résidents et copropriétaires",
+        "text": "Leurs propres demandes, leur relevé, les documents de l’immeuble, les convocations. Jamais les soumissions, les factures ni le dossier des voisins."
+      },
+      {
+        "title": "Entrepreneurs",
+        "text": "Une page par mandat, par lien personnel : la description, les photos, les disponibilités du résident. Aucun compte, aucune donnée au-delà du travail à faire."
+      }
+    ],
+    "honest": "Les fonctionnalités décrites existent dans la plateforme telle qu’utilisée aujourd’hui. Certaines sont en évolution ; nous vous montrons volontiers l’état réel en démonstration plutôt qu’une promesse."
+  },
+  "record": {
+    "eyebrow": "Dossier vivant de l’immeuble",
+    "title": "La mémoire de votre immeuble, <span>qui ne part pas avec les gens.</span>",
+    "copy": "Un conseil change, un gestionnaire part, un entrepreneur ferme. Ce qu’ils savaient de l’immeuble disparaît avec eux — sauf si quelque chose le retenait. Le Dossier vivant, c’est cela : un dossier qui se construit à chaque intervention, chaque document, chaque décision.",
+    "whatLabel": "Ce qu’il contient",
+    "whatTitle": "Des preuves datées, pas des fichiers en vrac.",
+    "whatCopy": "Chaque pièce du dossier est rattachée à une composante de l’immeuble (toiture, chauffage, assurance, fonds de prévoyance…), porte une date de validité et sait ce qu’elle prouve. Quand une nouvelle police remplace l’ancienne, l’ancienne est archivée — pas perdue, pas confondue.",
+    "sections": [
+      {
+        "icon": "▤",
+        "title": "Documents de référence",
+        "text": "Déclaration de copropriété, règlements, plans, études, certificats, polices d’assurance — avec leur date d’expiration quand il y en a une."
+      },
+      {
+        "icon": "⚒",
+        "title": "Interventions",
+        "text": "Chaque demande d’entretien réglée laisse une trace : qui est venu, quand, pour quoi, à quel prix, avec les photos avant et après."
+      },
+      {
+        "icon": "◉",
+        "title": "Décisions",
+        "text": "Ce qui a été voté en assemblée, quand, avec quelle majorité — et les obligations qui en découlent, dans l’échéancier."
+      },
+      {
+        "icon": "◷",
+        "title": "À suivre",
+        "text": "Ce qui manque, ce qui expire, ce qui est prévu : une liste courte, triée par urgence, plutôt qu’un classeur à parcourir."
+      },
+      {
+        "icon": "✎",
+        "title": "Demandes aux professionnels",
+        "text": "Besoin d’une étude du fonds de prévoyance ou d’un carnet d’entretien ? Immevia prépare l’envoi au professionnel avec les documents pertinents, puis classe son rapport comme preuve."
+      },
+      {
+        "icon": "⌕",
+        "title": "Reconnaissance des documents",
+        "text": "Un reçu photographié, une facture reçue par courriel : la plateforme en extrait l’essentiel et propose où le classer. Vous confirmez."
+      }
+    ],
+    "howLabel": "Comment il se construit",
+    "howTitle": "Vous n’avez pas à le remplir. Il se remplit.",
+    "how": [
+      {
+        "title": "Vous gérez comme d’habitude",
+        "text": "Une demande d’entretien, un paiement reçu, une assemblée tenue : chaque geste du quotidien produit sa trace au bon endroit du dossier."
+      },
+      {
+        "title": "Les documents arrivent par les canaux normaux",
+        "text": "Courriel transféré, photo prise au téléphone, téléversement : Immevia reconnaît le type de document et propose la composante et la date. Vous validez."
+      },
+      {
+        "title": "Le dossier vous parle",
+        "text": "Chaque semaine, ce qui expire ou manque remonte dans « À suivre ». Le reste se tait."
+      },
+      {
+        "title": "Il survit aux changements",
+        "text": "Nouveau conseil, nouveau gestionnaire : ils héritent du dossier complet, avec l’historique et les preuves, dès leur première connexion."
+      }
+    ],
+    "honest": "Le Dossier vivant organise l’information et ses échéances. Il ne remplace ni le carnet d’entretien préparé par un professionnel habilité, ni l’étude du fonds de prévoyance, ni un avis juridique — il les classe, les date et vous rappelle quand ils doivent être renouvelés."
+  },
+  "assemblies": {
+    "eyebrow": "Assemblée générale",
+    "title": "De la convocation au procès-verbal, <span>sans courir après personne.</span>",
+    "copy": "L’assemblée annuelle est le moment où tout se décide — et, pour beaucoup de syndicats, le moment le plus pénible de l’année. Immevia prend en charge la logistique du début à la fin, pour que vous puissiez vous concentrer sur les décisions.",
+    "flowLabel": "Le déroulement",
+    "flowTitle": "Six étapes, un seul fil.",
+    "flow": [
+      {
+        "title": "Préparer",
+        "text": "Date, lieu, ordre du jour, documents joints (états financiers, budget, soumissions). Immevia rassemble ce qui est déjà dans le dossier : vous n’avez pas à rechercher les pièces."
+      },
+      {
+        "title": "Convoquer",
+        "text": "Un courriel par unité, avec l’ordre du jour, les documents et un lien de connexion directe au portail. Vous recevez d’abord un test pour vérifier le rendu."
+      },
+      {
+        "title": "Suivre les présences",
+        "text": "Chaque copropriétaire répond en un clic depuis le courriel : présent, représenté, absent. Vous voyez qui n’a pas répondu et relancez d’un tap — sans retaper un message."
+      },
+      {
+        "title": "Tenir la séance",
+        "text": "Mode séance sur tablette ou ordinateur : présences confirmées, quorum calculé selon les fractions, chaque point voté avec la majorité requise affichée. Les procurations sont notées."
+      },
+      {
+        "title": "Produire le procès-verbal",
+        "text": "Le PV est généré à partir de ce qui a été saisi pendant la séance, dans le format attendu, puis transmis aux copropriétaires. Il est classé dans le dossier."
+      },
+      {
+        "title": "Faire vivre les décisions",
+        "text": "Une obligation votée (travaux, cotisation spéciale, changement de règlement) devient une entrée de l’échéancier avec sa date : elle ne reste pas enfouie dans un PV."
+      }
+    ],
+    "mockTitle": "Assemblée annuelle · 28 octobre",
+    "mockLead": [
+      {
+        "k": "Réponses",
+        "v": "6 / 7",
+        "tone": "green",
+        "d": "1 sans réponse · relancé hier"
+      },
+      {
+        "k": "Quorum",
+        "v": "Atteint",
+        "tone": "green",
+        "d": "présents + représentés"
+      },
+      {
+        "k": "Documents",
+        "v": "4 joints",
+        "tone": "",
+        "d": "états financiers, budget, 2 soumissions"
+      }
+    ],
+    "mockRows": [
+      {
+        "tone": "green",
+        "b": "Convocation envoyée aux 7 unités",
+        "s": "il y a 12 jours · test reçu avant l’envoi"
+      },
+      {
+        "tone": "green",
+        "b": "5 réponses de présence reçues",
+        "s": "depuis le lien du courriel"
+      },
+      {
+        "tone": "amber",
+        "b": "Relance envoyée aux 2 unités sans réponse",
+        "s": "hier · un tap"
+      },
+      {
+        "tone": "grey",
+        "b": "Séance : présences, quorum, 6 points votés",
+        "s": "le jour même"
+      },
+      {
+        "tone": "green",
+        "b": "Procès-verbal généré et transmis",
+        "s": "classé au Dossier vivant"
+      }
+    ],
+    "mockAct": {
+      "b": "Obligation votée → échéancier",
+      "s": "Remplacement du chauffe-eau commun avant le 30 juin"
+    },
+    "whyLabel": "Pourquoi ça compte",
+    "whyTitle": "Moins de friction, plus de participation.",
+    "why": [
+      {
+        "title": "Les gens répondent",
+        "text": "Un clic dans un courriel, pas un formulaire à imprimer. Les réponses arrivent, et vous savez qui relancer."
+      },
+      {
+        "title": "La séance avance",
+        "text": "Pas de calcul de quorum à la main, pas de doute sur la majorité requise : l’écran l’affiche, vous animez."
+      },
+      {
+        "title": "Rien ne se perd",
+        "text": "Le PV, les présences, les décisions et leurs échéances sont dans le dossier, consultables l’an prochain par un conseil qui n’était pas là."
+      }
+    ],
+    "honest": "Les délais de convocation, les majorités et le contenu du procès-verbal sont ceux prévus par votre déclaration de copropriété et le Code civil du Québec ; Immevia vous aide à les appliquer, mais la responsabilité de leur respect demeure celle du syndicat."
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Un même outil, <span>trois façons de s’en servir.</span>",
+    "copy": "Syndicat de copropriété, gestionnaire de plusieurs immeubles ou propriétaire d’immeuble locatif : les mêmes fondations, mais pas les mêmes journées. Choisissez la vôtre.",
+    "who": [
+      {
+        "href": "/solutions/syndicats/",
+        "title": "Syndicats de copropriété",
+        "text": "Pour un conseil d’administration bénévole qui veut faire les choses correctement sans y passer ses soirées.",
+        "cta": "Voir pour un syndicat →"
+      },
+      {
+        "href": "/solutions/gestionnaires/",
+        "title": "Gestionnaires immobiliers",
+        "text": "Pour un gestionnaire qui gère plusieurs immeubles et doit rendre des comptes à chacun de leurs conseils.",
+        "cta": "Voir pour un gestionnaire →"
+      },
+      {
+        "href": "/solutions/immeubles-locatifs/",
+        "title": "Immeubles locatifs et mixtes",
+        "text": "Pour un propriétaire qui veut l’historique de son bâtiment, le suivi des loyers et des réparations, au même endroit.",
+        "cta": "Voir pour un immeuble locatif →"
+      }
+    ]
+  },
+  "syndicats": {
+    "eyebrow": "Pour les syndicats de copropriété",
+    "title": "Administrer votre copropriété <span>sans que ça devienne un deuxième emploi.</span>",
+    "copy": "Vous êtes bénévole, vous avez une vie, et pourtant les charges doivent rentrer, le toit doit être réparé, l’assemblée doit se tenir et les documents doivent être au bon endroit quand on vous les demande. Immevia a été construite d’abord pour cela — par quelqu’un qui administre lui-même sa copropriété.",
+    "painsLabel": "Ce que ça change",
+    "painsTitle": "Les soirs que vous récupérez.",
+    "pains": [
+      {
+        "title": "Les charges communes",
+        "text": "Les frais sont affichés chaque mois ; les virements Interac reçus par courriel sont reconnus et rapprochés automatiquement ; les retards reçoivent un rappel courtois avec un lien de connexion directe. Vous intervenez seulement sur les exceptions."
+      },
+      {
+        "title": "Les réparations",
+        "text": "Un copropriétaire signale une fuite avec des photos ; vous envoyez un plombier par lien ; il fixe sa visite, dépose sa soumission et sa facture ; le résident est prévenu à chaque étape ; la facture devient une dépense. Vous n’avez fait que deux clics."
+      },
+      {
+        "title": "L’assemblée",
+        "text": "Convocation, réponses, relance, séance assistée avec quorum et majorités, procès-verbal transmis. <a href=\"/assemblees/\">Voir le déroulement →</a>"
+      },
+      {
+        "title": "Les documents",
+        "text": "Assurance, déclaration, règlements, études : classés, datés, et signalés avant d’expirer. Un nouveau conseil hérite de tout."
+      },
+      {
+        "title": "Le rapport mensuel",
+        "text": "Un PDF généré chaque mois — encaissements, dépenses, soldes, retards — prêt à transmettre au conseil ou à conserver."
+      },
+      {
+        "title": "Loi 16",
+        "text": "Carnet d’entretien, étude du fonds de prévoyance : Immevia prépare la demande au professionnel, classe son rapport et vous rappelle les renouvellements. <a href=\"/#loi-16\">En savoir plus →</a>"
+      }
+    ],
+    "fitLabel": "Est-ce pour vous ?",
+    "fitTitle": "Oui si…",
+    "fit": [
+      "vous administrez une copropriété de 4 à 60 unités et faites les choses vous-même ;",
+      "vous voulez que le prochain conseil retrouve tout, sans vous appeler ;",
+      "vos copropriétaires ont un courriel et un téléphone — c’est tout ce qu’il leur faut."
+    ],
+    "honest": "Immevia est utilisée au quotidien dans une copropriété de Rivière-des-Prairies, à Montréal, par le syndic qui l’a conçue. Nous préférons vous montrer ce qu’elle fait vraiment plutôt que de vous citer des clients que nous n’avons pas encore."
+  },
+  "gestionnaires": {
+    "eyebrow": "Pour les gestionnaires immobiliers",
+    "title": "Plusieurs immeubles, plusieurs conseils, <span>un seul endroit où tout se passe.</span>",
+    "copy": "Chaque immeuble a son dossier, ses résidents, ses entrepreneurs, son assemblée et son conseil à qui rendre des comptes. Immevia vous donne un tableau par immeuble et une vue d’ensemble de ce qui demande votre attention aujourd’hui — pas de ce qui va bien.",
+    "painsLabel": "Ce que ça change",
+    "painsTitle": "Moins de tableurs, moins de courriels, plus de preuves.",
+    "pains": [
+      {
+        "title": "Gestion par exception",
+        "text": "Une liste courte par immeuble : décision attendue, échéance proche, silence qui dure. Le reste n’apparaît pas."
+      },
+      {
+        "title": "Entrepreneurs sans friction",
+        "text": "Votre carnet d’entrepreneurs par spécialité, avec leurs évaluations par les résidents. Un mandat = un lien ; ils n’ont pas de compte à créer et vous voyez chaque étape."
+      },
+      {
+        "title": "Rendre des comptes",
+        "text": "Rapport mensuel par immeuble, journal de toutes les actions, décisions d’assemblée avec leur échéancier : vous montrez, vous ne racontez pas."
+      },
+      {
+        "title": "Conseils informés, résidents servis",
+        "text": "Le conseil voit les documents et les décisions ; les résidents voient leurs demandes et leur relevé ; personne ne voit ce qui ne le regarde pas."
+      },
+      {
+        "title": "Reprise d’un immeuble",
+        "text": "Quand vous prenez un mandat, vous construisez le Dossier vivant au fil des mois ; quand vous le quittez, il reste au syndicat. C’est un argument de vente pour vous."
+      },
+      {
+        "title": "Assemblées en série",
+        "text": "La même préparation pour chaque immeuble, sans réinventer la convocation. <a href=\"/assemblees/\">Voir le déroulement →</a>"
+      }
+    ],
+    "fitLabel": "Est-ce pour vous ?",
+    "fitTitle": "Oui si…",
+    "fit": [
+      "vous gérez entre 2 et 30 immeubles de petite ou moyenne taille ;",
+      "vous répondez à des conseils d’administration qui veulent des preuves, pas des promesses ;",
+      "vous préférez un outil qui vous laisse tranquille quand tout va bien."
+    ],
+    "honest": "La vue multi-immeubles est en construction : la plateforme gère aujourd’hui un immeuble par espace, avec un sélecteur d’immeuble. Nous le disons en démonstration, et nous bâtissons la suite avec les premiers gestionnaires."
+  },
+  "locatifs": {
+    "eyebrow": "Pour les immeubles locatifs et mixtes",
+    "title": "L’historique de votre bâtiment, <span>et le suivi de vos locataires.</span>",
+    "copy": "Un plex, un immeuble de dix logements, un rez-de-chaussée commercial avec des condos au-dessus : les mêmes besoins qu’une copropriété — réparations, documents, échéances — avec en plus des loyers à encaisser et des locataires à servir.",
+    "painsLabel": "Ce que ça change",
+    "painsTitle": "Ce que vous n’avez plus à tenir de tête.",
+    "pains": [
+      {
+        "title": "Loyers et paiements",
+        "text": "Les loyers attendus chaque mois, les virements reçus rapprochés automatiquement, les retards signalés avec un rappel. Les avances que vous faites de votre poche sont suivies jusqu’au remboursement."
+      },
+      {
+        "title": "Réparations",
+        "text": "Le locataire signale avec photos et disponibilités ; l’entrepreneur reçoit un lien ; la visite est fixée sans jeu de téléphone ; la facture devient une dépense."
+      },
+      {
+        "title": "Dossier du bâtiment",
+        "text": "Toiture, chauffage, plomberie, assurance : chaque intervention et chaque document s’accumulent. Quand vous vendez, le dossier vaut quelque chose."
+      },
+      {
+        "title": "Dépenses et reçus",
+        "text": "Une photo de reçu suffit : la plateforme en lit le montant et le fournisseur, vous confirmez la catégorie. Fin d’année sans boîte à chaussures."
+      },
+      {
+        "title": "Locataires informés",
+        "text": "Un portail simple sur leur téléphone : leurs demandes, les avis de l’immeuble, un lien de connexion sans mot de passe."
+      },
+      {
+        "title": "Mixte",
+        "text": "Des unités en copropriété et des logements locatifs dans le même bâtiment ? Même dossier, mêmes outils : le vocabulaire s’adapte à chacun, et l’historique du bâtiment reste un seul."
+      }
+    ],
+    "fitLabel": "Est-ce pour vous ?",
+    "fitTitle": "Oui si…",
+    "fit": [
+      "vous possédez de 1 à 20 immeubles locatifs de petite taille ;",
+      "vous voulez un historique propre du bâtiment, pas seulement une comptabilité ;",
+      "vos locataires ont un courriel et un téléphone."
+    ],
+    "honest": "Le vocabulaire s’adapte au type d’immeuble (« logement » plutôt que « unité », « locataire » plutôt que « copropriétaire »), mais le moteur est celui d’une copropriété. Les fonctions propres au locatif (baux, renouvellements, TAL) ne sont pas encore couvertes — dites-nous ce dont vous avez besoin."
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Un prix par porte, <span>sans surprise.</span>",
+    "copy": "Immevia est facturée selon le nombre d’unités (de « portes ») de l’immeuble, par mois. Pas de frais par utilisateur : tous vos copropriétaires, administrateurs et entrepreneurs sont inclus.",
+    "big": "Sur devis — selon le nombre de portes",
+    "includes": [
+      "Toutes les fonctions : entretien, Dossier vivant, finances, assemblées, portail résident",
+      "Résidents, administrateurs et entrepreneurs en nombre illimité",
+      "Courriels et liens de connexion inclus",
+      "Vos documents et rapports restent téléchargeables en tout temps",
+      "Aucun engagement de longue durée"
+    ],
+    "cardsTitle": "Deux façons de commencer",
+    "cards": [
+      {
+        "title": "Vous administrez votre propre immeuble",
+        "text": "Une démonstration de 30 minutes sur votre cas, puis un prix fixe par mois pour votre immeuble. Nous vous aidons à mettre en place le dossier et à inviter les résidents."
+      },
+      {
+        "title": "Vous gérez plusieurs immeubles",
+        "text": "Un prix dégressif par porte selon le nombre d’immeubles, et un accompagnement pour la reprise des premiers dossiers. Parlons de votre portefeuille."
+      }
+    ],
+    "honest": "Nous ne publions pas encore de grille de prix : la plateforme est utilisée par ses premiers immeubles et le prix se fixe avec eux, immeuble par immeuble. Vous aurez un chiffre clair et écrit avant de vous engager à quoi que ce soit."
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Ce qu’on nous demande <span>avant de commencer.</span>",
+    "copy": "Des réponses directes. S’il manque la vôtre, écrivez-nous.",
+    "groups": [
+      {
+        "title": "Pour commencer",
+        "items": [
+          {
+            "q": "Combien de temps pour mettre un immeuble en place ?",
+            "a": "<p>Une soirée pour les bases : l’immeuble, ses unités, ses résidents (nom, courriel, téléphone). Les documents et l’historique s’ajoutent ensuite au fil des semaines — le Dossier vivant est fait pour se construire progressivement, pas pour être rempli d’un coup.</p>"
+          },
+          {
+            "q": "Faut-il que les résidents installent quelque chose ?",
+            "a": "<p>Non. Ils reçoivent un courriel avec un lien qui les connecte directement, sans mot de passe. Sur le téléphone, le portail peut être ajouté à l’écran d’accueil comme une application, en deux gestes. Un mot de passe reste possible pour ceux qui le préfèrent.</p>"
+          },
+          {
+            "q": "Et les copropriétaires qui n’ont pas de courriel ?",
+            "a": "<p>Vous pouvez saisir pour eux (présence à l’assemblée, demande d’entretien, paiement par chèque). Ils figurent au dossier comme les autres ; ils ne reçoivent simplement pas les courriels automatiques.</p>"
+          },
+          {
+            "q": "Pouvons-nous reprendre notre historique Excel ?",
+            "a": "<p>Les paiements et les dépenses passés peuvent être importés depuis un fichier CSV (extrait de votre tableur ou de votre relevé bancaire). Les documents existants se téléversent en lot et la reconnaissance propose où les classer.</p>"
+          }
+        ]
+      },
+      {
+        "title": "Au quotidien",
+        "items": [
+          {
+            "q": "Comment les entrepreneurs utilisent-ils Immevia ?",
+            "a": "<p>Ils ne créent pas de compte. Quand vous les mandatez, ils reçoivent un lien personnel (courriel, ou texto si vous le copiez) qui ouvre une page avec la demande, les photos et les disponibilités du résident. Ils y acceptent, fixent la visite, déposent soumission, photos « après » et facture. Le lien reste valide le temps du mandat.</p>"
+          },
+          {
+            "q": "Qui voit les soumissions et les factures ?",
+            "a": "<p>Le syndic ou gestionnaire seulement. Les résidents voient l’avancement de leur demande (entrepreneur mandaté, visite prévue, travaux terminés) et les photos, jamais les montants.</p>"
+          },
+          {
+            "q": "Comment fonctionnent les rappels de paiement ?",
+            "a": "<p>Les frais sont affichés chaque mois. Les virements Interac reçus sur le courriel du syndicat sont reconnus et rapprochés automatiquement ; ce qui n’est pas reconnu vous est présenté pour un rapprochement en un clic. Les retards reçoivent un rappel courtois, avec un lien de connexion directe, selon la cadence que vous choisissez.</p>"
+          },
+          {
+            "q": "Et pour l’assemblée générale ?",
+            "a": "<p>Convocation avec documents joints, réponses de présence en un clic, relance des sans-réponse, séance assistée (présences, quorum, majorités), procès-verbal généré et transmis, décisions versées à l’échéancier. <a href=\"/assemblees/\">Le déroulement complet →</a></p>"
+          }
+        ]
+      },
+      {
+        "title": "Données et sécurité",
+        "items": [
+          {
+            "q": "Où sont hébergées nos données ?",
+            "a": "<p>Chez des fournisseurs infonuagiques reconnus (base de données et stockage des documents chiffrés, courriels transactionnels), en Amérique du Nord. La région exacte et la liste des fournisseurs vous sont communiquées par écrit avant tout engagement et figureront dans la politique de confidentialité finale.</p>"
+          },
+          {
+            "q": "Qui a accès à quoi ?",
+            "a": "<p>Chaque personne ne voit que ce qui relève de son rôle et de son immeuble : un résident voit son unité, un administrateur voit l’immeuble, un entrepreneur voit son mandat. Les documents sont servis par liens signés à durée limitée, jamais par adresse publique. Chaque action est journalisée.</p>"
+          },
+          {
+            "q": "Pouvons-nous récupérer nos données si nous partons ?",
+            "a": "<p>Oui. Vos documents, vos rapports mensuels et vos procès-verbaux sont des fichiers que vous pouvez télécharger en tout temps ; vos données financières et votre historique vous sont remis sur demande sous forme exploitable. Le dossier appartient au syndicat, pas à nous.</p>"
+          },
+          {
+            "q": "Immevia donne-t-elle des avis juridiques ?",
+            "a": "<p>Non. Immevia est un outil de gestion. Les obligations du syndicat (Code civil, déclaration de copropriété, Loi 16 et ses règlements) restent les siennes ; la plateforme aide à les organiser, à les documenter et à ne pas en rater les échéances.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}
