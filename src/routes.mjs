@@ -6,6 +6,7 @@ export const ROUTES = {
   platform:      { fr: '/plateforme/',                    en: '/en/platform/' },
   record:        { fr: '/dossier-vivant/',                en: '/en/living-record/' },
   assemblies:    { fr: '/assemblees/',                    en: '/en/meetings/' },
+  loi16:         { fr: '/loi-16/',                        en: '/en/bill-16/' },
   solutions:     { fr: '/solutions/',                     en: '/en/solutions/' },
   syndicats:     { fr: '/solutions/syndicats/',           en: '/en/solutions/condo-boards/' },
   gestionnaires: { fr: '/solutions/gestionnaires/',       en: '/en/solutions/property-managers/' },

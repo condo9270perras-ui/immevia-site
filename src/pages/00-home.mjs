@@ -68,7 +68,7 @@ export const body = ({ c, t }) => { const ui_ = t.ui; return `
 
 <section id="loi-16"><a id="law"></a>
   <div class="wrap"><div class="compliance">
-    <div>${label(c.qcLabel)}<h2 class="section-title">${c.qcTitle}</h2><p>${c.qcText}</p><a class="btn green" href="https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes" target="_blank" rel="noopener">${c.qcCta}</a></div>
+    <div>${label(c.qcLabel)}<h2 class="section-title">${c.qcTitle}</h2><p>${c.qcText}</p><a class="btn green" href="/loi-16/">${c.qcCta}</a></div>
     <div><ul>${c.qcList.map((l) => `<li>${l}</li>`).join('')}</ul></div>
   </div></div>
 </section>
