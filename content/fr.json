@@ -103,7 +103,7 @@
       "Historique du bâtiment conservé",
       "Prochaines échéances visibles"
     ],
-    "qcCta": "Consulter les règles officielles ↗",
+    "qcCta": "Lire le résumé de la Loi 16 →",
     "priceLabel": "Tarifs et démo",
     "priceTitle": "Un prix par porte, par mois, tout inclus.",
     "priceText": "Résidents, administrateurs et entrepreneurs en nombre illimité. Une soirée pour mettre l’immeuble en place. Un chiffre clair, par écrit, avant tout engagement.",
@@ -764,5 +764,115 @@
       "f2": "12 pièces datées, rattachées à 5 composantes",
       "f3": "5 ans d’historique · hérités par le prochain conseil"
     }
+  },
+  "loi16": {
+    "eyebrow": "Québec · Copropriété · Loi 16",
+    "h1": "Ce que la Loi 16 demande à votre syndicat <span>— et pour quand.</span>",
+    "copy": "Le règlement d’application est en vigueur depuis le 14 août 2025. Voici les obligations, les délais et les articles, en clair, avec un lien vers chaque source officielle.",
+    "keyLabel": "En bref",
+    "keyTitle": "Trois dates à retenir.",
+    "key": [
+      {
+        "n": "14 août 2025",
+        "title": "Entrée en vigueur",
+        "text": "du règlement qui rend applicables le carnet d’entretien et l’étude du fonds de prévoyance."
+      },
+      {
+        "n": "≈ mi-août 2028",
+        "title": "Échéance des syndicats existants",
+        "text": "Ils ont « trois ans et un jour » pour faire établir leur carnet d’entretien et obtenir une première étude du fonds de prévoyance."
+      },
+      {
+        "n": "15 jours",
+        "title": "Attestation de vente",
+        "text": "Délai pour remettre l’attestation sur l’état de la copropriété à un copropriétaire qui vend, après sa demande."
+      }
+    ],
+    "tableLabel": "Les obligations",
+    "tableTitle": "Qui fait quoi, à quel rythme.",
+    "tableCopy": "Ce tableau résume les règles; le texte de loi fait foi.",
+    "cols": [
+      "Obligation",
+      "Ce qui est demandé",
+      "Rythme et délais",
+      "Source"
+    ],
+    "rows": [
+      [
+        "Carnet d’entretien",
+        "Un document qui décrit les parties communes, leur entretien et les travaux faits ou prévus. Le conseil d’administration le tient à jour.",
+        "Mis à jour <b>au moins une fois par année</b>. Révisé <b>au moins tous les 5 ans</b> — tous les 10 ans suffisent dans certains cas, par exemple un immeuble de <b>8 parties privatives ou moins</b>.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1070.2\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1070.2</a> · <a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Règlement</a>"
+      ],
+      [
+        "Étude du fonds de prévoyance",
+        "Une étude qui estime les réparations majeures et les remplacements à venir, et les sommes à mettre de côté chaque année.",
+        "Obtenue <b>tous les 5 ans</b>.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1071</a> · <a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Règlement</a>"
+      ],
+      [
+        "Contributions au fonds",
+        "Le conseil fixe les sommes à verser au fonds de prévoyance à partir de l’étude.",
+        "Fixées <b>au plus tard 30 jours après l’assemblée annuelle</b>. Un fonds insuffisant doit être renfloué en <b>10 ans au plus</b>. Immeuble neuf, avant la première étude : <b>0,5 %</b> de la valeur de reconstruction.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1071</a> · <a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca</a>"
+      ],
+      [
+        "Accès des copropriétaires",
+        "Le carnet et l’étude sont rendus disponibles aux copropriétaires.",
+        "<b>60 jours</b> après leur production.",
+        "<a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca</a>"
+      ],
+      [
+        "Attestation sur l’état de la copropriété",
+        "Un document remis au copropriétaire qui vend, pour l’acheteur : charges, fonds, assurances, travaux, litiges, etc.",
+        "Remise <b>dans les 15 jours</b> suivant la demande du copropriétaire.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1068.1\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1068.1</a>"
+      ]
+    ],
+    "doesLabel": "Et Immevia ?",
+    "doesTitle": "Ce que l’outil fait pour vous — et ce qu’il ne fait pas.",
+    "does": [
+      {
+        "title": "Tout est daté et au même endroit",
+        "text": "Le Dossier vivant classe le carnet, les études, les rapports et les factures par section de l’immeuble, avec leur date et leur échéance."
+      },
+      {
+        "title": "Les échéances ne se perdent pas",
+        "text": "L’échéancier affiche la prochaine révision, la prochaine étude et les renouvellements, et vous les rappelle à l’avance."
+      },
+      {
+        "title": "L’historique se construit tout seul",
+        "text": "Chaque demande d’entretien, soumission, photo et facture reste au dossier : c’est la matière dont le professionnel a besoin pour le carnet."
+      }
+    ],
+    "honest": "Immevia ne rédige pas le carnet d’entretien ni l’étude du fonds de prévoyance : ce sont des professionnels habilités qui les produisent. Immevia prépare les demandes, conserve les rapports et suit les délais. Cette page résume la loi; elle ne remplace pas un avis juridique.",
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Notre immeuble a 8 unités ou moins. Qu’est-ce qui change ?",
+        "a": "<p>Le carnet d’entretien peut être révisé tous les 10 ans plutôt que tous les 5 ans. Il doit quand même être mis à jour chaque année, et l’étude du fonds de prévoyance reste aux 5 ans.</p>"
+      },
+      {
+        "q": "Notre syndicat existait avant 2025. Avons-nous du temps ?",
+        "a": "<p>Oui : les syndicats existants ont trois ans et un jour à partir de l’entrée en vigueur du règlement (14 août 2025) pour établir leur carnet et obtenir leur première étude, soit vers la mi-août 2028. Les professionnels sont déjà très demandés : mieux vaut s’y prendre tôt.</p>"
+      },
+      {
+        "q": "Un copropriétaire vend son condo. Que devons-nous fournir ?",
+        "a": "<p>À sa demande, le syndicat lui remet une attestation sur l’état de la copropriété dans les 15 jours. Elle reprend notamment les charges, l’état du fonds de prévoyance, les assurances et les travaux. Plus le dossier est tenu à jour, plus elle est rapide à préparer.</p>"
+      }
+    ],
+    "sourcesTitle": "Sources officielles",
+    "sources": [
+      "<a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca — Mesures applicables aux copropriétés divises</a>",
+      "<a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Décret 991-2025 — Règlement établissant diverses règles en matière de copropriété divise (copie RGCQ)</a>",
+      "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1068.1\" target=\"_blank\" rel=\"noopener\">Code civil du Québec, art. 1068.1</a> · <a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1070.2\" target=\"_blank\" rel=\"noopener\">art. 1070.2</a> · <a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">art. 1071</a> (LégisQuébec)"
+    ],
+    "verified": "Vérifié en octobre 2026. Si une règle change, la source officielle l’emporte sur ce résumé.",
+    "cta": {
+      "title": "Un dossier prêt pour la Loi 16, sans y passer vos soirées.",
+      "text": "Montrez-nous votre immeuble : on vous dit en 20 minutes ce qui manque et ce qui est déjà en ordre."
+    },
+    "fullTitle": "Loi 16 et copropriété : obligations et échéances — Immevia",
+    "metaDescription": "Carnet d’entretien, étude du fonds de prévoyance, attestation de vente : ce que la Loi 16 demande aux syndicats de copropriété du Québec, et pour quand. Sources officielles."
   }
 }

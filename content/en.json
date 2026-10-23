@@ -183,7 +183,7 @@
       "Building history preserved",
       "Upcoming deadlines visible"
     ],
-    "qcCta": "Read the official rules (in French) ↗",
+    "qcCta": "Read the Bill 16 summary →",
     "priceLabel": "Pricing and demo",
     "priceTitle": "One price per door, per month, all included.",
     "priceText": "Unlimited residents, board members and contractors. One evening to set the building up. A clear figure, in writing, before any commitment.",
@@ -764,5 +764,115 @@
       "text": "Write to us; the answer will go here for the next person.",
       "label": "Write to us ↗"
     }
+  },
+  "loi16": {
+    "eyebrow": "Québec · Co-ownership · Bill 16",
+    "h1": "What Bill 16 asks of your condo association <span>— and by when.</span>",
+    "copy": "The implementing regulation has been in force since August 14, 2025. Here are the obligations, deadlines and articles, in plain words, with a link to each official source (in French).",
+    "keyLabel": "In short",
+    "keyTitle": "Three dates to remember.",
+    "key": [
+      {
+        "n": "Aug 14, 2025",
+        "title": "In force",
+        "text": "The regulation that puts the maintenance log and the contingency fund study into effect."
+      },
+      {
+        "n": "≈ mid-Aug 2028",
+        "title": "Deadline for existing associations",
+        "text": "They have “three years and one day” to have their maintenance log prepared and obtain a first contingency fund study."
+      },
+      {
+        "n": "15 days",
+        "title": "Sale certificate",
+        "text": "Time to give a selling co-owner the certificate on the state of the co-ownership, after their request."
+      }
+    ],
+    "tableLabel": "The obligations",
+    "tableTitle": "Who does what, how often.",
+    "tableCopy": "This table summarizes the rules; the text of the law prevails.",
+    "cols": [
+      "Obligation",
+      "What is required",
+      "Frequency and deadlines",
+      "Source"
+    ],
+    "rows": [
+      [
+        "Maintenance log (carnet d’entretien)",
+        "A document describing the common portions, their upkeep and the work done or planned. The board keeps it up to date.",
+        "Updated <b>at least once a year</b>. Revised <b>at least every 5 years</b> — every 10 years is enough in some cases, for example a building with <b>8 private portions or fewer</b>.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1070.2\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1070.2</a> · <a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Règlement</a>"
+      ],
+      [
+        "Contingency fund study",
+        "A study estimating upcoming major repairs and replacements, and the amounts to set aside each year.",
+        "Obtained <b>every 5 years</b>.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1071</a> · <a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Règlement</a>"
+      ],
+      [
+        "Fund contributions",
+        "The board sets the contributions to the contingency fund based on the study.",
+        "Set <b>no later than 30 days after the annual meeting</b>. An insufficient fund must be replenished within <b>10 years at most</b>. New building, before the first study: <b>0.5%</b> of the reconstruction value.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1071</a> · <a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca</a>"
+      ],
+      [
+        "Co-owner access",
+        "The log and the study are made available to co-owners.",
+        "<b>60 days</b> after they are produced.",
+        "<a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca</a>"
+      ],
+      [
+        "Certificate on the state of the co-ownership",
+        "A document given to a selling co-owner, for the buyer: charges, fund, insurance, work, disputes, etc.",
+        "Delivered <b>within 15 days</b> of the co-owner’s request.",
+        "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1068.1\" target=\"_blank\" rel=\"noopener\">C.c.Q., art. 1068.1</a>"
+      ]
+    ],
+    "doesLabel": "And Immevia?",
+    "doesTitle": "What the tool does for you — and what it doesn’t.",
+    "does": [
+      {
+        "title": "Everything dated, in one place",
+        "text": "The Living Record files the log, studies, reports and invoices by building section, with their dates and expiries."
+      },
+      {
+        "title": "Deadlines don’t slip",
+        "text": "The schedule shows the next revision, the next study and renewals, and reminds you ahead of time."
+      },
+      {
+        "title": "The history builds itself",
+        "text": "Every maintenance request, quote, photo and invoice stays on record: exactly the material the professional needs for the log."
+      }
+    ],
+    "honest": "Immevia does not write the maintenance log or the contingency fund study: qualified professionals produce them. Immevia prepares the requests, keeps the reports and tracks the deadlines. This page summarizes the law; it is not legal advice.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Our building has 8 units or fewer. What changes?",
+        "a": "<p>The maintenance log can be revised every 10 years instead of every 5. It must still be updated every year, and the contingency fund study stays at every 5 years.</p>"
+      },
+      {
+        "q": "Our association existed before 2025. Do we have time?",
+        "a": "<p>Yes: existing associations have three years and one day from the regulation’s coming into force (August 14, 2025) to prepare their log and obtain their first study — around mid-August 2028. Professionals are already in high demand, so it pays to start early.</p>"
+      },
+      {
+        "q": "A co-owner is selling their condo. What must we provide?",
+        "a": "<p>On their request, the association gives them a certificate on the state of the co-ownership within 15 days. It covers, among other things, the charges, the state of the contingency fund, insurance and work. The more up to date the record, the faster it is to prepare.</p>"
+      }
+    ],
+    "sourcesTitle": "Official sources (in French)",
+    "sources": [
+      "<a href=\"https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes\" target=\"_blank\" rel=\"noopener\">Québec.ca — Mesures applicables aux copropriétés divises</a>",
+      "<a href=\"https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf\" target=\"_blank\" rel=\"noopener\">Décret 991-2025 — Règlement établissant diverses règles en matière de copropriété divise (copie RGCQ)</a>",
+      "<a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1068.1\" target=\"_blank\" rel=\"noopener\">Code civil du Québec, art. 1068.1</a> · <a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1070.2\" target=\"_blank\" rel=\"noopener\">art. 1070.2</a> · <a href=\"https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1071\" target=\"_blank\" rel=\"noopener\">art. 1071</a> (LégisQuébec)"
+    ],
+    "verified": "Checked in October 2026. If a rule changes, the official source prevails over this summary.",
+    "cta": {
+      "title": "A Bill 16-ready record, without giving up your evenings.",
+      "text": "Show us your building: in 20 minutes we’ll tell you what’s missing and what’s already in order."
+    },
+    "fullTitle": "Quebec Bill 16 for condos: obligations and deadlines — Immevia",
+    "metaDescription": "Maintenance log, contingency fund study, sale certificate: what Quebec's Bill 16 requires of condo associations, and by when. Official sources."
   }
 }
