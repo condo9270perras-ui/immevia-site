@@ -3,7 +3,7 @@
 // building "Les Jardins Exemple" (invented residents, 555 phone numbers,
 // @exemple.immevia.ca addresses). Bare rectangles, no device bezels. The
 // Dossier vivant frame stays a built mock because it is a three-stage scroll
-// sequence, not a single screen. Images live in static/shots/ (WebP, 2x).
+// sequence, not a single screen. Images live in static/shots/ (WebP, ~1.6x, taken 2026-11 from the restyled app).
 let shotDir = ''
 /** Per-language screenshot folder ('' for French, 'en/' for English); set by build.mjs. */
 export function setShotDir(d) { shotDir = d }
@@ -17,23 +17,23 @@ const head = (title, chip, tone = 'red') => `<div class="mock-h"><b>${title}</b>
 
 export const mocks = {
   /** Hero: the ticket page with a decision waiting (admin side). */
-  ticket: (ui) => shot('ticket-admin', 1920, 1680, ui.shots.ticket, { eager: true }),
+  ticket: (ui) => shot('ticket-admin', 1100, 880, ui.shots.ticket, { eager: true }),
 
 
   /** Section 3: the queue, grouped by what blocks. */
-  attention: (ui) => shot('queue', 1920, 1440, ui.shots.queue),
+  attention: (ui) => shot('queue', 1556, 1160, ui.shots.queue),
 
 
   /** Tab: maintenance — the contractor's phone page, no account. */
-  entretien: (ui) => shot('contractor', 1125, 1900, ui.shots.contractor, { phone: true }),
+  entretien: (ui) => shot('contractor', 766, 1300, ui.shots.contractor, { phone: true }),
 
 
   /** Tab: assembly follow-up. */
-  assemblee: (ui) => shot('assemblee', 1920, 1500, ui.shots.assemblee),
+  assemblee: (ui) => shot('assemblee', 1556, 1200, ui.shots.assemblee),
 
 
   /** Tab: finances — collections at a glance. */
-  finances: (ui) => shot('finances', 1920, 1420, ui.shots.finances),
+  finances: (ui) => shot('finances', 1556, 1150, ui.shots.finances),
 
 
   /** Section 5: one stage, three states (data-stage on the section). */
