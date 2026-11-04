@@ -8,13 +8,14 @@
       "assemblies": "Meetings",
       "solutions": "Solutions",
       "pricing": "Pricing",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "loi16": "Bill 16"
     },
     "switch": "FR",
     "switchLabel": "Version française",
     "login": "Sign in",
-    "demo": "Request a demo ↗",
-    "ctaDefault": "Let’s talk about your needs ↗",
+    "demo": "Start your free trial",
+    "ctaDefault": "Start your free trial",
     "footerPlace": "Montréal, Québec",
     "law16": "Bill 16",
     "contact": "Contact",
@@ -29,7 +30,7 @@
       "dossierVivant": "The Living Record: fragments become a dated file, then the building’s memory"
     },
     "dv": {
-      "title": "Living Record · 9270 Perras",
+      "title": "Living Record · Les Jardins Exemple",
       "s1": "in progress",
       "s2": "2 to follow up",
       "s3": "To follow up: 0",
@@ -77,19 +78,25 @@
       "f1": "12 items, nowhere in particular",
       "f2": "12 dated items, attached to 5 components",
       "f3": "5 years of history · inherited by the next board"
-    }
+    },
+    "talk": "Talk to Andrew",
+    "tel": "tel:+15142650555",
+    "phone": "514-265-0555",
+    "mail": "mrandrewmoubarak@gmail.com",
+    "menu": "Menu",
+    "footerContact": "Andrew M., founder"
   },
   "home": {
     "eyebrow": "Property management · Québec",
     "h1": "A building <span>that remembers.</span>",
-    "sub": "Maintenance, finances, documents, meetings and communications — in one record that grows with every action. For condo syndicates, property managers and building owners.",
-    "ctaPrimary": "Request a demo ↗",
-    "ctaSecondary": "See how it works ↓",
-    "cred": "Built by a syndicate manager, for syndicate managers — used every day in a Montréal condominium. Screens shown in English; the English interface is rolling out, the product is French first.",
+    "sub": "Maintenance, finances, documents, meetings and communications — in one record that grows with every action. For condo syndicates (the co-owners’ association and its board), property managers and building owners in Québec.",
+    "ctaPrimary": "Start your free trial",
+    "ctaSecondary": "See how it works",
+    "cred": "Built by a volunteer condo board member, and used every day in a real 7-unit condo building. The product is French first; the English interface is rolling out.",
     "credFacts": [
-      "Montréal",
+      "Made in Québec",
       "French first",
-      "Data hosted in Canada"
+      "30-day free trial"
     ],
     "attLabel": "Management by exception",
     "attTitle": "You don’t have to go looking.<br>Immevia tells you what to look at.",
@@ -123,14 +130,14 @@
         "key": "assemblee",
         "label": "Meeting",
         "title": "Notice, attendance, session, minutes.",
-        "text": "One-click replies from the e-mail, one-tap reminders, quorum and majorities computed during the session, minutes generated and sent, decisions added to the schedule.",
+        "text": "One-click replies from the e-mail, one-click reminders, quorum and majorities computed during the session, minutes generated and sent, decisions added to the schedule.",
         "link": "/assemblees/"
       },
       {
         "key": "finances",
         "label": "Finances",
         "title": "Transfers reconcile themselves.",
-        "text": "Fees posted every month, Interac transfers recognized and matched, late payers reminded with a direct sign-in link, monthly report as a PDF.",
+        "text": "Fees posted every month, Interac transfers recognized and matched, one-click reminders for late payers, monthly report as a PDF.",
         "link": "/plateforme/"
       }
     ],
@@ -184,15 +191,15 @@
       "Upcoming deadlines visible"
     ],
     "qcCta": "Read the Bill 16 summary →",
-    "priceLabel": "Pricing and demo",
-    "priceTitle": "One price per door, per month, all included.",
-    "priceText": "Unlimited residents, board members and contractors. One evening to set the building up. A clear figure, in writing, before any commitment.",
-    "priceLink": "See pricing →",
-    "formTitle": "Request a walkthrough",
-    "formNote": "Thirty minutes, your situation, nothing we can’t show on screen.",
+    "priceLabel": "Pricing and trial",
+    "priceTitle": "$49 a month for a building of 10 units or fewer.",
+    "priceText": "$3.50 per unit above 10. Unlimited residents, board members and contractors. 30-day free trial, no credit card. The first 10 buildings get 25% off for life.",
+    "priceLink": "See pricing in detail →",
+    "formTitle": "Start your free trial",
+    "formNote": "Fill in the form: Andrew sets your building up in Immevia within one business day and sends you your sign-in link. Your 30-day trial starts then.",
     "metaTitle": "Immevia",
-    "fullTitle": "Immevia — A building that remembers.",
-    "metaDescription": "Immevia brings a building’s maintenance, finances, documents, meetings and communications into one record that grows with every action. For condo syndicates, property managers and owners in Québec.",
+    "fullTitle": "Condo management software for Québec — Immevia",
+    "metaDescription": "Immevia brings a condo building’s maintenance, finances, documents and meetings into one record. Made in Québec, French first. 30-day free trial.",
     "jsonldDescription": "Property management platform designed for Québec.",
     "whoCta": "See →",
     "more": "Learn more →",
@@ -219,11 +226,20 @@
     ],
     "formUnits": "Number of units",
     "formUnitsPh": "e.g. 12",
-    "formMessage": "Your message",
-    "formMessagePh": "Tell us about your buildings…",
-    "formSubmit": "Send my request ↗",
+    "formMessage": "Message (optional)",
+    "formMessagePh": "A question or a specific need? (optional)",
+    "formSubmit": "Start your free trial",
     "formHoney": "Leave empty:",
-    "formLegal": "By sending this form you accept our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French)."
+    "formLegal": "By sending this form you accept our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French). Your details are used only to create your trial and answer you.",
+    "heroNote": "30 days free · no credit card · then $49/month for a building of 10 units or fewer",
+    "formBuilding": "Building or syndicate name",
+    "formBuildingPh": "e.g. 1200 Maple Street syndicate",
+    "formPhone": "Phone (optional)",
+    "founderLabel": "Who is behind Immevia",
+    "founderTitle": "A person, not a call centre.",
+    "founderText": "My name is Andrew M. I volunteer on the board of a 7-unit condo building, and I built Immevia because no tool kept the building’s memory. I use it every day. If you have a question before you start, write or call me: I’m the one who answers.",
+    "founderName": "Andrew M.",
+    "founderRole": "Founder of Immevia · condo board member"
   },
   "platform": {
     "eyebrow": "The platform",
@@ -245,7 +261,7 @@
       {
         "icon": "◫",
         "title": "Finances",
-        "text": "Common expenses, payments received, expenses with receipts, advances and repayments. Interac e-Transfers received by e-mail are recognized and matched automatically; late payments trigger courteous reminders with a direct sign-in link for the resident."
+        "text": "Common expenses, payments received, expenses with receipts, advances and repayments. Interac e-Transfers received by e-mail are recognized and matched automatically; if a payment is late, a courteous reminder goes out in one click, with a direct sign-in link for the resident."
       },
       {
         "icon": "◉",
@@ -279,7 +295,7 @@
     "rolesTitle": "The right information to the right person — and nothing more.",
     "roles": [
       {
-        "title": "Syndicate manager or property manager",
+        "title": "Board member or property manager",
         "text": "The whole record, every decision, the full history. Every action is logged."
       },
       {
@@ -295,10 +311,10 @@
         "text": "One page per job, through a personal link: the description, the photos, the resident’s availability. No account, no data beyond the work to be done."
       }
     ],
-    "honest": "The features described exist in the platform as it is used today. Some are still evolving; we would rather show you the real state in a demo than make a promise.",
-    "metaTitle": "The platform",
+    "honest": "The features described exist in the platform as it is used today. Some are still evolving; during your trial you see the real state rather than a promise.",
+    "metaTitle": "Condo management platform",
     "metaDescription": "Maintenance, Living Record, finances, meetings and resident portal: what the Immevia platform concretely does for a building in Québec.",
-    "secondaryLabel": "The Living Record ↓",
+    "secondaryLabel": "The Living Record",
     "shotAlt": "A maintenance request page with a quote to approve",
     "cta": {
       "title": "See it run on your building.",
@@ -365,12 +381,12 @@
       }
     ],
     "honest": "The Living Record organizes information and its deadlines. It replaces neither the maintenance log prepared by a qualified professional, nor the contingency-fund study, nor legal advice — it files them, dates them and reminds you when they must be renewed.",
-    "metaTitle": "The building’s Living Record",
+    "metaTitle": "Living Record: maintenance log and building memory",
     "metaDescription": "The Living Record: dated evidence attached to each component of the building, expiries flagged ahead of time, a history handed over to the next board.",
     "shotAlt": "A building’s Living Record: 41.5 % documented, Bill 16 obligations, sections to complete with the Upload and Request buttons",
     "cta": {
       "title": "Start your building’s record.",
-      "text": "It builds up over the weeks. The sooner it starts, the more it will be worth."
+      "text": "It builds up over the weeks. The earlier it starts, the more it is worth."
     }
   },
   "assemblies": {
@@ -390,7 +406,7 @@
       },
       {
         "title": "Track attendance",
-        "text": "Each co-owner replies in one click from the e-mail: attending, represented, absent. You see who hasn’t replied and remind them with one tap — without retyping a message."
+        "text": "Each co-owner replies in one click from the e-mail: attending, represented, absent. You see who hasn’t replied and remind them in one click — without retyping a message."
       },
       {
         "title": "Hold the session",
@@ -434,13 +450,13 @@
       },
       {
         "tone": "green",
-        "b": "5 attendance replies received",
+        "b": "5 replies in the first week",
         "s": "from the link in the e-mail"
       },
       {
         "tone": "amber",
         "b": "Reminder sent to the 2 units without a reply",
-        "s": "yesterday · one tap"
+        "s": "yesterday · one click · 1 has replied since"
       },
       {
         "tone": "grey",
@@ -474,8 +490,8 @@
       }
     ],
     "honest": "Notice periods, majorities and the content of the minutes are those set by your declaration of co-ownership and the Civil Code of Québec; Immevia helps you apply them, but the responsibility for complying with them remains the syndicate’s.",
-    "metaTitle": "General meeting",
-    "metaDescription": "Notice with documents, one-click attendance replies, automatic reminders, assisted session with quorum and majorities, minutes generated and sent on time.",
+    "metaTitle": "Co-owners’ meeting: notice, quorum, minutes",
+    "metaDescription": "Notice with documents, one-click attendance replies, one-click reminders, assisted session with quorum and majorities, minutes generated from the session.",
     "mockChip": "Minutes sent",
     "mockAlt": "Overview of a meeting’s follow-up",
     "cta": {
@@ -507,7 +523,7 @@
         "cta": "See it for a rental building →"
       }
     ],
-    "metaTitle": "Solutions",
+    "metaTitle": "Solutions for condos, managers and owners",
     "metaDescription": "Immevia for condo syndicates, property managers and owners of rental or mixed buildings in Québec."
   },
   "syndicats": {
@@ -519,11 +535,11 @@
     "pains": [
       {
         "title": "Common expenses",
-        "text": "Fees are posted every month; Interac e-Transfers received by e-mail are recognized and matched automatically; late payers get a courteous reminder with a direct sign-in link. You only step in on exceptions."
+        "text": "Fees are posted every month; Interac e-Transfers received by e-mail are recognized and matched automatically; you send late payers a courteous reminder in one click, with a direct sign-in link. You only step in on exceptions."
       },
       {
         "title": "Repairs",
-        "text": "A co-owner reports a leak with photos; you send a plumber a link; they set their visit, submit their quote and their invoice; the resident is informed at every step; the invoice becomes an expense. You made two clicks."
+        "text": "A co-owner reports a leak with photos; you send a plumber a link; they set their visit, submit their quote and their invoice; the resident is informed at every step; the invoice becomes an expense. All you had to do was decide."
       },
       {
         "title": "The meeting",
@@ -549,13 +565,13 @@
       "you want the next board to find everything without calling you;",
       "your co-owners have an e-mail address and a phone — that’s all they need."
     ],
-    "honest": "Immevia is used every day in a co-ownership in Rivière-des-Prairies, Montréal, by the syndicate manager who designed it. We would rather show you what it really does than quote clients we don’t have yet.",
-    "metaTitle": "For condo syndicates",
-    "metaDescription": "Immevia for a volunteer board of directors: common expenses, repairs through a contractor link, assisted meeting, a Living Record aligned with Bill 16.",
+    "honest": "Immevia is used every day in a real 7-unit condo building, by the volunteer board member who designed it. We would rather show you what it really does than quote clients we don’t have yet.",
+    "metaTitle": "Software for condo boards",
+    "metaDescription": "Immevia for a volunteer board: common expenses, repairs through a contractor link, assisted meetings, and a Living Record that helps prepare the maintenance log and contingency fund study required by Bill 16.",
     "secondaryLabel": "Other profiles",
     "cta": {
-      "title": "Let’s talk about your building.",
-      "text": "A demo on your situation, and a clear price before any commitment."
+      "title": "Try it on your building.",
+      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
     }
   },
   "gestionnaires": {
@@ -571,7 +587,7 @@
       },
       {
         "title": "Frictionless contractors",
-        "text": "Your contractor book by trade, with residents’ ratings. One job = one link; they have no account to create and you see every step."
+        "text": "Your contractor book by trade. One job = one link; they have no account to create and you see every step."
       },
       {
         "title": "Accountability",
@@ -597,13 +613,13 @@
       "you answer to boards of directors that want evidence, not promises;",
       "you prefer a tool that leaves you alone when everything is fine."
     ],
-    "honest": "The multi-building view is under construction: today the platform manages one building per workspace, with a building switcher. We say so in demos, and we are building what comes next with the first managers.",
-    "metaTitle": "For property managers",
+    "honest": "The multi-building view is under construction: today the platform manages one building per workspace, with a building switcher. We say so up front, and we are building what comes next with the first managers.",
+    "metaTitle": "Software for condo property managers",
     "metaDescription": "Immevia for a manager of several buildings: management by exception, contractor book, reports per building, transferable records.",
     "secondaryLabel": "Other profiles",
     "cta": {
-      "title": "Let’s talk about your building.",
-      "text": "A demo on your situation, and a clear price before any commitment."
+      "title": "Try it on your building.",
+      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
     }
   },
   "locatifs": {
@@ -615,7 +631,7 @@
     "pains": [
       {
         "title": "Rents and payments",
-        "text": "Rents expected every month, transfers received and matched automatically, late payments flagged with a reminder. The advances you make out of pocket are tracked until repaid."
+        "text": "Rents expected every month, transfers received and matched automatically, late payments flagged, with a one-click reminder. The advances you make out of pocket are tracked until repaid."
       },
       {
         "title": "Repairs",
@@ -646,46 +662,95 @@
       "your tenants have an e-mail address and a phone."
     ],
     "honest": "The vocabulary adapts to the type of building (“apartment” rather than “unit”, “tenant” rather than “co-owner”), but the engine is a co-ownership’s. Rental-specific features (leases, renewals, the TAL) are not covered yet — tell us what you need.",
-    "metaTitle": "For rental and mixed buildings",
+    "metaTitle": "Rental and mixed building management",
     "metaDescription": "Immevia for the owner of a rental or mixed building: rents matched automatically, repairs through a link, a building file that gains value.",
     "secondaryLabel": "Other profiles",
     "cta": {
-      "title": "Let’s talk about your building.",
-      "text": "A demo on your situation, and a clear price before any commitment."
+      "title": "Try it on your building.",
+      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
     }
   },
   "pricing": {
     "eyebrow": "Pricing",
-    "title": "One price per door, <span>no surprises.</span>",
-    "copy": "Immevia is billed by the number of units (“doors”) in the building, per month. No per-user fees: all your co-owners, board members and contractors are included.",
-    "big": "On quote — by the number of doors",
+    "title": "One price per building, <span>published.</span>",
+    "copy": "$49 a month for a building of 10 units or fewer, then $3.50 per unit above that. All your co-owners, board members and contractors are included. 30-day free trial, no credit card.",
+    "big": "$49<small> / month</small>",
+    "bigSub": "up to 10 units · + $3.50 per unit above · plus taxes",
+    "founder": "<b>Founder rate:</b> the first 10 buildings get 25% off, for life.",
+    "yearly": "Yearly billing: 2 months free (you pay 10 months out of 12).",
+    "exTitle": "Examples",
+    "exHead": [
+      "Building",
+      "Per month",
+      "Per year (yearly)"
+    ],
+    "examples": [
+      [
+        "7 units",
+        "$49",
+        "$490"
+      ],
+      [
+        "20 units",
+        "$84",
+        "$840"
+      ],
+      [
+        "40 units",
+        "$154",
+        "$1,540"
+      ]
+    ],
+    "exNote": "Prices in Canadian dollars, before taxes (GST and QST extra). With the founder rate, take off 25%.",
+    "includesTitle": "Always included:",
     "includes": [
       "Every feature: maintenance, Living Record, finances, meetings, resident portal",
       "Unlimited residents, board members and contractors",
       "E-mails and sign-in links included",
       "Your documents and reports stay downloadable at any time",
-      "No long-term commitment"
+      "No commitment: stop whenever you want"
     ],
-    "cardsTitle": "Two ways to start",
-    "cards": [
+    "trialTitle": "How the trial works",
+    "trial": [
       {
-        "title": "You run your own building",
-        "text": "A 30-minute demo on your situation, then a fixed monthly price for your building. We help you set up the record and invite the residents."
+        "title": "You fill in the form",
+        "text": "The building name, number of units and your e-mail. No credit card."
       },
       {
-        "title": "You manage several buildings",
-        "text": "A decreasing price per door based on the number of buildings, and help taking over the first records. Let’s talk about your portfolio."
+        "title": "Andrew sets up your building",
+        "text": "Within one business day: units, shares and access. You receive your sign-in link."
+      },
+      {
+        "title": "30 days to try it",
+        "text": "Invite your board, run a real maintenance request, prepare the meeting. Then you decide."
       }
     ],
-    "honest": "We don’t publish a price grid yet: the platform is used by its first buildings and the price is set with them, building by building. You will have a clear written figure before committing to anything.",
-    "metaTitle": "Pricing",
-    "metaDescription": "Immevia is billed per door, per month, all features and all users included, with no long-term commitment. Price on request by building size.",
-    "heroCta": "Get a price for my building ↗",
-    "includesTitle": "What is always included:",
+    "faqTitle": "Pricing questions",
+    "faq": [
+      {
+        "q": "Are taxes included?",
+        "a": "<p>No. Prices are before taxes; GST and QST are added on the invoice.</p>"
+      },
+      {
+        "q": "Can I stop whenever I want?",
+        "a": "<p>Yes. Monthly billing stops at the end of the current month. If the trial isn’t right for you, there is nothing to pay.</p>"
+      },
+      {
+        "q": "What happens to my data if I stop?",
+        "a": "<p>Your documents, reports and minutes are downloadable at any time, and your financial data is handed over on request in a usable format. The record belongs to the syndicate.</p>"
+      },
+      {
+        "q": "I manage several buildings.",
+        "a": "<p>Each building is billed by its number of units. For a portfolio, <a href=\"mailto:mrandrewmoubarak@gmail.com\">write to Andrew</a> and we’ll talk it through.</p>"
+      }
+    ],
+    "metaTitle": "Condo software pricing",
+    "fullTitle": "Pricing: $49/month per building, 30-day free trial — Immevia",
+    "metaDescription": "$49 a month for a building of 10 units or fewer, $3.50 per unit above, all users included. 30-day free trial, no credit card. Founder rate: 25% off for life.",
+    "heroCta": "Start your free trial",
     "cta": {
-      "title": "A clear figure, in writing.",
-      "text": "Tell us the number of units and the type of building; you’ll get a quick answer.",
-      "label": "Request a price ↗"
+      "title": "Try it for 30 days, free.",
+      "text": "No credit card. Andrew sets your building up within one business day."
     }
   },
   "faq": {
@@ -723,11 +788,11 @@
           },
           {
             "q": "Who sees quotes and invoices?",
-            "a": "<p>The syndicate manager or property manager only. Residents see the progress of their request (contractor assigned, visit scheduled, work completed) and the photos, never the amounts.</p>"
+            "a": "<p>Board members or the property manager only. Residents see the progress of their request (contractor assigned, visit scheduled, work completed) and the photos, never the amounts.</p>"
           },
           {
             "q": "How do payment reminders work?",
-            "a": "<p>Fees are posted every month. Interac e-Transfers received at the syndicate’s e-mail address are recognized and matched automatically; whatever isn’t recognized is presented to you for one-click matching. Late payers get a courteous reminder with a direct sign-in link, at the cadence you choose.</p>"
+            "a": "<p>Fees are posted every month. Interac e-Transfers received at the syndicate’s e-mail address are recognized and matched automatically; whatever isn’t recognized is presented to you for one-click matching. If someone is late, you send a courteous reminder in one click, with a direct sign-in link.</p>"
           },
           {
             "q": "And the general meeting?",
@@ -762,12 +827,13 @@
     "cta": {
       "title": "Your question isn’t here?",
       "text": "Write to us; the answer will go here for the next person.",
-      "label": "Write to us ↗"
+      "label": "Write to Andrew",
+      "href": "mailto:mrandrewmoubarak@gmail.com"
     }
   },
   "loi16": {
     "eyebrow": "Québec · Co-ownership · Bill 16",
-    "h1": "What Bill 16 asks of your condo association <span>— and by when.</span>",
+    "h1": "What Bill 16 asks of your condo syndicate <span>— and by when.</span>",
     "copy": "The implementing regulation has been in force since August 14, 2025. Here are the obligations, deadlines and articles, in plain words, with a link to each official source (in French).",
     "keyLabel": "In short",
     "keyTitle": "Three dates to remember.",
@@ -873,6 +939,6 @@
       "text": "Show us your building: in 20 minutes we’ll tell you what’s missing and what’s already in order."
     },
     "fullTitle": "Quebec Bill 16 for condos: obligations and deadlines — Immevia",
-    "metaDescription": "Maintenance log, contingency fund study, sale certificate: what Quebec's Bill 16 requires of condo associations, and by when. Official sources."
+    "metaDescription": "Maintenance log, contingency fund study, sale certificate: what Quebec's Bill 16 requires of condo syndicates, and by when. Official sources."
   }
 }
