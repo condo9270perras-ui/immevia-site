@@ -588,7 +588,7 @@
     "title": "Un prix par immeuble, <span>affiché.</span>",
     "copy": "49 $ par mois pour un immeuble de 10 unités ou moins, puis 3,50 $ par unité au-delà. Tous vos copropriétaires, administrateurs et entrepreneurs sont inclus. 30 jours d’essai gratuit, sans carte de crédit.",
     "big": "49 $<small> / mois</small>",
-    "bigSub": "jusqu’à 10 unités · + 3,50 $ par unité au-delà · taxes en sus",
+    "bigSub": "jusqu’à 10 unités · + 3,50 $ par unité au-delà · aucune taxe ajoutée",
     "founder": "<b>Tarif fondateur :</b> les 10 premiers immeubles obtiennent 25 % de rabais, à vie.",
     "yearly": "Paiement annuel : 2 mois gratuits (vous payez 10 mois sur 12).",
     "exTitle": "Exemples",
@@ -614,7 +614,7 @@
         "1 540 $"
       ]
     ],
-    "exNote": "Prix en dollars canadiens, avant taxes (TPS et TVQ en sus). Avec le tarif fondateur, retranchez 25 %.",
+    "exNote": "Prix en dollars canadiens. Aucune taxe n’est ajoutée pour l’instant. Avec le tarif fondateur, retranchez 25 %.",
     "includesTitle": "Ce qui est inclus, toujours :",
     "includes": [
       "Toutes les fonctions : entretien, Dossier vivant, finances, assemblées, portail résident",
@@ -641,8 +641,8 @@
     "faqTitle": "Questions sur les tarifs",
     "faq": [
       {
-        "q": "Les taxes sont-elles incluses ?",
-        "a": "<p>Non. Les prix sont avant taxes ; la TPS et la TVQ s’ajoutent sur la facture.</p>"
+        "q": "Y a-t-il des taxes ?",
+        "a": "<p>Aucune taxe n’est ajoutée pour l’instant : le prix affiché est le prix payé. Si la TPS et la TVQ deviennent applicables, nous vous préviendrons au moins 30 jours à l’avance.</p>"
       },
       {
         "q": "Puis-je arrêter quand je veux ?",

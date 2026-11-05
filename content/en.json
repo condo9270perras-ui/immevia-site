@@ -230,7 +230,7 @@
     "formMessagePh": "A question or a specific need? (optional)",
     "formSubmit": "Start your free trial",
     "formHoney": "Leave empty:",
-    "formLegal": "By sending this form you accept our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French). Your details are used only to create your trial and answer you.",
+    "formLegal": "By sending this form you accept our <a href=\"/en/privacy.html\">privacy policy</a>. Your details are used only to create your trial and answer you.",
     "heroNote": "30 days free · no credit card · then $49/month for a building of 10 units or fewer",
     "formBuilding": "Building or syndicate name",
     "formBuildingPh": "e.g. 1200 Maple Street syndicate",
@@ -675,7 +675,7 @@
     "title": "One price per building, <span>published.</span>",
     "copy": "$49 a month for a building of 10 units or fewer, then $3.50 per unit above that. All your co-owners, board members and contractors are included. 30-day free trial, no credit card.",
     "big": "$49<small> / month</small>",
-    "bigSub": "up to 10 units · + $3.50 per unit above · plus taxes",
+    "bigSub": "up to 10 units · + $3.50 per unit above · no tax added",
     "founder": "<b>Founder rate:</b> the first 10 buildings get 25% off, for life.",
     "yearly": "Yearly billing: 2 months free (you pay 10 months out of 12).",
     "exTitle": "Examples",
@@ -701,7 +701,7 @@
         "$1,540"
       ]
     ],
-    "exNote": "Prices in Canadian dollars, before taxes (GST and QST extra). With the founder rate, take off 25%.",
+    "exNote": "Prices in Canadian dollars. No tax is added for now. With the founder rate, take off 25%.",
     "includesTitle": "Always included:",
     "includes": [
       "Every feature: maintenance, Living Record, finances, meetings, resident portal",
@@ -728,8 +728,8 @@
     "faqTitle": "Pricing questions",
     "faq": [
       {
-        "q": "Are taxes included?",
-        "a": "<p>No. Prices are before taxes; GST and QST are added on the invoice.</p>"
+        "q": "Are there taxes?",
+        "a": "<p>No tax is added for now: the price shown is the price you pay. If GST and QST become applicable, we will tell you at least 30 days ahead.</p>"
       },
       {
         "q": "Can I stop whenever I want?",
@@ -805,7 +805,7 @@
         "items": [
           {
             "q": "Where is our data hosted?",
-            "a": "<p>The database and the documents are hosted in Canada (Montréal region). Some processing — the application servers, e-mail delivery, automatic document recognition — takes place in the United States with established providers. The full list is in our <a href=\"/confidentialite.html\" hreflang=\"fr\">privacy policy</a> (in French).</p>"
+            "a": "<p>The database and the documents are hosted in Canada (Montréal region). Some processing — the application servers, e-mail delivery, automatic document recognition — takes place in the United States with established providers. The full list is in our <a href=\"/en/privacy.html\">privacy policy</a>.</p>"
           },
           {
             "q": "Who has access to what?",
