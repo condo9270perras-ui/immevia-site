@@ -11,6 +11,8 @@ export const NAV = [
 ]
 
 export const APP_URL = 'https://app.immevia.ca'
+/** The self sign-up page, opened in the visitor's language. */
+export const signupUrl = (lang) => `${APP_URL}/auth/inscription?lang=${lang}`
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
 export function layout({ site, css, lang, t, page, content: c, body }) {
@@ -49,11 +51,11 @@ ${page.jsonld ? `<script type="application/ld+json">${JSON.stringify(typeof page
 <style>${css}</style>
 </head>
 <body><a class="skip" href="#main">${ui.skip}</a>
-<header><nav class="wrap"><a class="logo" href="/" aria-label="${ui.homeLabel}"><span class="mark" aria-hidden="true">⌂</span>immevia</a><button class="mobile-toggle" id="mobileToggle" aria-label="${ui.menu}" aria-expanded="false" aria-controls="navlinks"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="navlinks" id="navlinks">${NAV.map((n) => `<a href="${n.href}"${routes.fr.startsWith(n.href) ? ' aria-current="page" class="on"' : ''}>${ui.nav[n.key]}</a>`).join('')}<a href="${routes[other]}" class="lang" lang="${other}" hreflang="${other}" aria-label="${ui.switchLabel}">${ui.switch}</a><a href="${APP_URL}/auth/login" class="login">${ui.login}</a><a href="/#essai" class="btn primary">${ui.demo}</a></div></nav></header>
+<header><nav class="wrap"><a class="logo" href="/" aria-label="${ui.homeLabel}"><span class="mark" aria-hidden="true">⌂</span>immevia</a><button class="mobile-toggle" id="mobileToggle" aria-label="${ui.menu}" aria-expanded="false" aria-controls="navlinks"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="navlinks" id="navlinks">${NAV.map((n) => `<a href="${n.href}"${routes.fr.startsWith(n.href) ? ' aria-current="page" class="on"' : ''}>${ui.nav[n.key]}</a>`).join('')}<a href="${routes[other]}" class="lang" lang="${other}" hreflang="${other}" aria-label="${ui.switchLabel}">${ui.switch}</a><a href="${APP_URL}/auth/login" class="login">${ui.login}</a><a href="${signupUrl(lang)}" class="btn primary">${ui.demo}</a></div></nav></header>
 <main id="main">
 ${body}
 </main>
-<footer class="footer"><div class="wrap footrow"><div><div class="logo"><span class="mark" aria-hidden="true">⌂</span>immevia</div><p>© <span id="year"></span> Immevia · Andrew Moubarak · ${ui.footerPlace}</p><p class="foot-contact">${ui.footerContact} · <a href="mailto:${ui.mail}">${ui.mail}</a> · <a href="${ui.tel}">${ui.phone}</a></p></div><div class="footerlinks">${NAV.slice(0, 4).map((n) => `<a href="${n.href}">${ui.nav[n.key]}</a>`).join('')}<a href="/tarifs/">${ui.nav.pricing}</a><a href="/faq/">FAQ</a><a href="/#essai">${ui.demo}</a><a href="${lang === 'fr' ? '/confidentialite.html' : '/en/privacy.html'}">${ui.privacy}</a><a href="${lang === 'fr' ? '/conditions.html' : '/en/terms.html'}">${ui.terms}</a></div></div></footer>
+<footer class="footer"><div class="wrap footrow"><div><div class="logo"><span class="mark" aria-hidden="true">⌂</span>immevia</div><p>© <span id="year"></span> Immevia · Andrew Moubarak · ${ui.footerPlace}</p><p class="foot-contact">${ui.footerContact} · <a href="mailto:${ui.mail}">${ui.mail}</a> · <a href="${ui.tel}">${ui.phone}</a></p></div><div class="footerlinks">${NAV.slice(0, 4).map((n) => `<a href="${n.href}">${ui.nav[n.key]}</a>`).join('')}<a href="/tarifs/">${ui.nav.pricing}</a><a href="/faq/">FAQ</a><a href="${signupUrl(lang)}">${ui.demo}</a><a href="${lang === 'fr' ? '/confidentialite.html' : '/en/privacy.html'}">${ui.privacy}</a><a href="${lang === 'fr' ? '/conditions.html' : '/en/terms.html'}">${ui.terms}</a></div></div></footer>
 <script>
 const nl=document.getElementById('navlinks'),mt=document.getElementById('mobileToggle');mt.onclick=()=>{const o=nl.classList.toggle('open');mt.setAttribute('aria-expanded',o)};document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nl.classList.contains('open')){nl.classList.remove('open');mt.setAttribute('aria-expanded','false');mt.focus()}});nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nl.classList.remove('open');mt.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();
 ${page.script ?? ''}
@@ -78,14 +80,14 @@ let strings = {}
 export function setStrings(s) { strings = s }
 export const ui = {
   hero: ({ eyebrow, title, copy, cta = true, ctaLabel = strings.demo, secondary }) => `
-<div class="hero inner"><div class="wrap"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1><p>${copy}</p>${cta ? `<div class="actions"><a class="btn primary" href="/#essai">${ctaLabel}</a>${secondary ? `<a class="btn secondary" href="${secondary.href}">${secondary.label}</a>` : `<a class="btn secondary" href="${strings.tel}">${strings.talk} · ${strings.phone}</a>`}</div>` : ''}</div></div>`,
+<div class="hero inner"><div class="wrap"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1><p>${copy}</p>${cta ? `<div class="actions"><a class="btn primary" href="${signupUrl(strings.lang)}">${ctaLabel}</a>${secondary ? `<a class="btn secondary" href="${secondary.href}">${secondary.label}</a>` : `<a class="btn secondary" href="${strings.tel}">${strings.talk} · ${strings.phone}</a>`}</div>` : ''}</div></div>`,
   section: ({ id, label, title, copy, inner, alt }) => `
 <section${id ? ` id="${id}"` : ''}${alt ? ' class="alt"' : ''}><div class="wrap">${label ? `<span class="section-label">${label}</span>` : ''}${title ? `<h2 class="section-title">${title}</h2>` : ''}${copy ? `<p class="section-copy">${copy}</p>` : ''}${inner}</div></section>`,
   cards: (items) => `<div class="cards${items.length % 3 === 2 ? ' cards-2' : ''}${items.length === 4 ? ' cards-4' : ''}">${items.map((c) => `<div class="card">${c.icon ? `<span class="icon" aria-hidden="true">${icon(c.icon)}</span>` : ''}<h3>${c.title}</h3><p>${c.text}</p></div>`).join('')}</div>`,
   steps: (items) => `<div class="steps">${items.map((s, i) => `<div class="step"><b>0${i + 1}</b><h3>${s.title}</h3><p>${s.text}</p></div>`).join('')}</div>`,
   flow: (items) => `<ol class="flow">${items.map((s) => `<li><div><strong>${s.title}</strong><p>${s.text}</p></div></li>`).join('')}</ol>`,
   faq: (items) => `<div class="faq">${items.map((q) => `<details><summary>${q.q}</summary><div class="faq-a">${q.a}</div></details>`).join('')}</div>`,
-  cta: ({ title, text, label = strings.ctaDefault, href = '/#essai' }) => `
+  cta: ({ title, text, label = strings.ctaDefault, href = signupUrl(strings.lang) }) => `
 <section><div class="wrap"><div class="cta"><h2>${title}</h2><p>${text}</p><div class="actions" style="justify-content:center"><a href="${href}" class="btn primary">${label}</a><a class="btn secondary" href="${strings.tel}">${strings.talk} · ${strings.phone}</a></div></div></div></section>`,
   honest: (text) => `<p class="honest">${text}</p>`,
 }

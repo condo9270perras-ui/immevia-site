@@ -195,8 +195,8 @@
     "priceTitle": "$49 a month for a building of 10 units or fewer.",
     "priceText": "$3.50 per unit above 10. Unlimited residents, board members and contractors. 30-day free trial, no credit card. The first 10 buildings get 25% off for life.",
     "priceLink": "See pricing in detail →",
-    "formTitle": "Start your free trial",
-    "formNote": "Fill in the form: Andrew sets your building up in Immevia within one business day and sends you your sign-in link. Your 30-day trial starts then.",
+    "formTitle": "Rather have us do it?",
+    "formNote": "Leave your details: Andrew calls you and sets your building up with you (units, shares, access) within one business day.",
     "metaTitle": "Immevia",
     "fullTitle": "Condo management software for Québec — Immevia",
     "metaDescription": "Immevia brings a condo building’s maintenance, finances, documents and meetings into one record. Made in Québec, French first. 30-day free trial.",
@@ -228,9 +228,9 @@
     "formUnitsPh": "e.g. 12",
     "formMessage": "Message (optional)",
     "formMessagePh": "A question or a specific need? (optional)",
-    "formSubmit": "Start your free trial",
+    "formSubmit": "Ask Andrew for help",
     "formHoney": "Leave empty:",
-    "formLegal": "By sending this form you accept our <a href=\"/en/privacy.html\">privacy policy</a>. Your details are used only to create your trial and answer you.",
+    "formLegal": "By sending this form you accept our <a href=\"/en/privacy.html\">privacy policy</a>. Your details are used only to answer you.",
     "heroNote": "30 days free · no credit card · then $49/month for a building of 10 units or fewer",
     "formBuilding": "Building or syndicate name",
     "formBuildingPh": "e.g. 1200 Maple Street syndicate",
@@ -239,7 +239,10 @@
     "founderTitle": "A person, not a call centre.",
     "founderText": "My name is Andrew M. I volunteer on the board of a 7-unit condo building, and I built Immevia because no tool kept the building’s memory. I use it every day. If you have a question before you start, write or call me: I’m the one who answers.",
     "founderName": "Andrew M.",
-    "founderRole": "Founder of Immevia · condo board member"
+    "founderRole": "Founder of Immevia · condo board member",
+    "signupTitle": "Start your free trial",
+    "signupNote": "Create your account in two minutes: the building name, number of units and your e-mail. No credit card. A six-step guide then walks you through setup.",
+    "signupCta": "Create my free account"
   },
   "platform": {
     "eyebrow": "The platform",
@@ -571,7 +574,7 @@
     "secondaryLabel": "Other profiles",
     "cta": {
       "title": "Try it on your building.",
-      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
+      "text": "30 days free, no credit card. Your account is ready in two minutes."
     }
   },
   "gestionnaires": {
@@ -619,7 +622,7 @@
     "secondaryLabel": "Other profiles",
     "cta": {
       "title": "Try it on your building.",
-      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
+      "text": "30 days free, no credit card. Your account is ready in two minutes."
     }
   },
   "locatifs": {
@@ -667,7 +670,7 @@
     "secondaryLabel": "Other profiles",
     "cta": {
       "title": "Try it on your building.",
-      "text": "30 days free, no credit card. Andrew sets your building up within one business day."
+      "text": "30 days free, no credit card. Your account is ready in two minutes."
     }
   },
   "pricing": {
@@ -713,12 +716,12 @@
     "trialTitle": "How the trial works",
     "trial": [
       {
-        "title": "You fill in the form",
+        "title": "You create your account",
         "text": "The building name, number of units and your e-mail. No credit card."
       },
       {
-        "title": "Andrew sets up your building",
-        "text": "Within one business day: units, shares and access. You receive your sign-in link."
+        "title": "The guide walks you through",
+        "text": "Six steps: units and fees, residents, Interac transfers, bank statement, first document. Andrew can also do it with you."
       },
       {
         "title": "30 days to try it",
@@ -750,7 +753,7 @@
     "heroCta": "Start your free trial",
     "cta": {
       "title": "Try it for 30 days, free.",
-      "text": "No credit card. Andrew sets your building up within one business day."
+      "text": "No credit card. Your account is ready in two minutes."
     }
   },
   "faq": {

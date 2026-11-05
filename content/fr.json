@@ -108,8 +108,8 @@
     "priceTitle": "49 $ par mois pour un immeuble de 10 unités ou moins.",
     "priceText": "3,50 $ par unité au-delà de 10. Résidents, administrateurs et entrepreneurs en nombre illimité. 30 jours d’essai gratuit, sans carte de crédit. Les 10 premiers immeubles obtiennent 25 % de rabais à vie.",
     "priceLink": "Voir les tarifs en détail →",
-    "formTitle": "Commencez votre essai gratuit",
-    "formNote": "Remplissez le formulaire : Andrew prépare votre immeuble dans Immevia en un jour ouvrable et vous envoie votre lien de connexion. Votre essai de 30 jours commence à ce moment-là.",
+    "formTitle": "Vous préférez qu’on s’en occupe ?",
+    "formNote": "Laissez vos coordonnées : Andrew vous appelle et prépare votre immeuble avec vous (unités, quotes-parts, accès) en un jour ouvrable.",
     "metaTitle": "Immevia",
     "fullTitle": "Logiciel de gestion de copropriété au Québec — Immevia",
     "metaDescription": "Immevia réunit l’entretien, les finances, les documents et les assemblées d’une copropriété dans un seul dossier. Fait au Québec, en français. 30 jours d’essai gratuit.",
@@ -141,9 +141,9 @@
     "formUnitsPh": "ex. 12",
     "formMessage": "Message (facultatif)",
     "formMessagePh": "Une question, un besoin particulier ? (facultatif)",
-    "formSubmit": "Commencer l’essai gratuit",
+    "formSubmit": "Demander l’aide d’Andrew",
     "formHoney": "Ne pas remplir :",
-    "formLegal": "En envoyant ce formulaire, vous acceptez notre <a href=\"/confidentialite.html\">politique de confidentialité</a>. Vos coordonnées servent seulement à créer votre essai et à vous répondre.",
+    "formLegal": "En envoyant ce formulaire, vous acceptez notre <a href=\"/confidentialite.html\">politique de confidentialité</a>. Vos coordonnées servent seulement à vous répondre.",
     "heroNote": "30 jours gratuits · sans carte de crédit · 49 $/mois ensuite pour un immeuble de 10 unités ou moins",
     "formBuilding": "Nom de l’immeuble ou du syndicat",
     "formBuildingPh": "ex. Syndicat du 1200, rue des Érables",
@@ -152,7 +152,10 @@
     "founderTitle": "Une personne, pas un centre d’appels.",
     "founderText": "Je m’appelle Andrew M. J’administre bénévolement une copropriété de 7 unités et j’ai bâti Immevia parce qu’aucun outil ne gardait la mémoire de l’immeuble. Je l’utilise chaque jour. Si vous avez une question avant de commencer, écrivez-moi ou appelez-moi : c’est moi qui réponds.",
     "founderName": "Andrew M.",
-    "founderRole": "Fondateur d’Immevia · administrateur de copropriété"
+    "founderRole": "Fondateur d’Immevia · administrateur de copropriété",
+    "signupTitle": "Commencez votre essai gratuit",
+    "signupNote": "Créez votre compte en deux minutes : le nom de l’immeuble, le nombre d’unités et votre courriel. Aucune carte de crédit. Un guide en six étapes vous accompagne ensuite.",
+    "signupCta": "Créer mon compte gratuitement"
   },
   "platform": {
     "eyebrow": "La plateforme",
@@ -484,7 +487,7 @@
     "secondaryLabel": "Autres profils",
     "cta": {
       "title": "Essayez-la sur votre immeuble.",
-      "text": "30 jours gratuits, sans carte de crédit. Andrew prépare votre immeuble en un jour ouvrable."
+      "text": "30 jours gratuits, sans carte de crédit. Votre compte est prêt en deux minutes."
     }
   },
   "gestionnaires": {
@@ -532,7 +535,7 @@
     "secondaryLabel": "Autres profils",
     "cta": {
       "title": "Essayez-la sur votre immeuble.",
-      "text": "30 jours gratuits, sans carte de crédit. Andrew prépare votre immeuble en un jour ouvrable."
+      "text": "30 jours gratuits, sans carte de crédit. Votre compte est prêt en deux minutes."
     }
   },
   "locatifs": {
@@ -580,7 +583,7 @@
     "secondaryLabel": "Autres profils",
     "cta": {
       "title": "Essayez-la sur votre immeuble.",
-      "text": "30 jours gratuits, sans carte de crédit. Andrew prépare votre immeuble en un jour ouvrable."
+      "text": "30 jours gratuits, sans carte de crédit. Votre compte est prêt en deux minutes."
     }
   },
   "pricing": {
@@ -626,12 +629,12 @@
     "trialTitle": "Comment se passe l’essai",
     "trial": [
       {
-        "title": "Vous remplissez le formulaire",
+        "title": "Vous créez votre compte",
         "text": "Le nom de l’immeuble, le nombre d’unités et votre courriel. Aucune carte de crédit."
       },
       {
-        "title": "Andrew prépare votre immeuble",
-        "text": "En un jour ouvrable : unités, quotes-parts et accès. Vous recevez votre lien de connexion."
+        "title": "Le guide vous accompagne",
+        "text": "Six étapes : unités et charges, résidents, virements Interac, relevé bancaire, premier document. Andrew peut aussi le faire avec vous."
       },
       {
         "title": "30 jours pour l’essayer",
@@ -663,7 +666,7 @@
     "heroCta": "Commencer l’essai gratuit",
     "cta": {
       "title": "Essayez-la 30 jours, gratuitement.",
-      "text": "Sans carte de crédit. Andrew prépare votre immeuble en un jour ouvrable."
+      "text": "Sans carte de crédit. Votre compte est prêt en deux minutes."
     }
   },
   "faq": {

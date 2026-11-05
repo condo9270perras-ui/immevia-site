@@ -29,7 +29,7 @@ const urls = []
 for (const lang of LANGS) {
   const t = JSON.parse(readFileSync(join(root, `content/${lang}.json`), 'utf8'))
   t.lang = lang
-  setStrings(t.ui)
+  setStrings({ ...t.ui, lang })
   setShotDir(lang === 'fr' ? '' : lang + '/')
   for (const page of pages) {
     const content = t[page.key]

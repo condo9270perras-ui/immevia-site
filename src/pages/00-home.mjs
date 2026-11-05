@@ -5,6 +5,7 @@
 // Product frames are real screenshots of the app on a fictional demo building
 // (see src/mocks.mjs); the Dossier vivant frame is a built three-stage mock.
 import { mocks } from '../mocks.mjs'
+import { signupUrl } from '../layout.mjs'
 
 export const key = 'home'
 export const priority = '1.0'
@@ -23,7 +24,7 @@ export const body = ({ c, t }) => { const ui_ = t.ui; return `
       ${label(c.eyebrow)}
       <h1>${c.h1}</h1>
       <p>${c.sub}</p>
-      <div class="actions"><a class="btn primary" href="#essai">${c.ctaPrimary}</a><a class="btn secondary" href="#attention">${c.ctaSecondary}</a></div>
+      <div class="actions"><a class="btn primary" href="${signupUrl(t.lang)}">${c.ctaPrimary}</a><a class="btn secondary" href="#attention">${c.ctaSecondary}</a></div>
       <p class="hero-note">${c.heroNote}</p>
     </div>
     ${mocks.ticket(t.ui)}
@@ -91,6 +92,9 @@ export const body = ({ c, t }) => { const ui_ = t.ui; return `
     <div>
       ${label(c.priceLabel)}${h2(c.priceTitle)}${copy(c.priceText)}
       <a class="text-link" href="/tarifs/">${c.priceLink}</a>
+      <h3 style="margin:40px 0 6px;font-size:22px;letter-spacing:-.4px">${c.signupTitle}</h3>
+      <p class="notice">${c.signupNote}</p>
+      <p style="margin-top:16px"><a class="btn primary" href="${signupUrl(t.lang)}">${c.signupCta}</a></p>
       <h3 style="margin:40px 0 6px;font-size:22px;letter-spacing:-.4px">${c.formTitle}</h3>
       <p class="notice">${c.formNote}</p>
     </div>
@@ -107,7 +111,7 @@ export const body = ({ c, t }) => { const ui_ = t.ui; return `
       </div>
       <label><span>${c.formMessage}</span><textarea name="message" maxlength="2000" placeholder="${c.formMessagePh}"></textarea></label>
       <input type="hidden" name="lang" value="${t.lang}">
-      <button class="btn primary" type="submit">${c.formSubmit}</button>
+      <button class="btn secondary" type="submit">${c.formSubmit}</button>
       <p class="legal-note">${c.formLegal}</p>
     </form>
   </div>
