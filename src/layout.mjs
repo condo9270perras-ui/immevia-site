@@ -90,4 +90,5 @@ export const ui = {
   cta: ({ title, text, label = strings.ctaDefault, href = signupUrl(strings.lang) }) => `
 <section><div class="wrap"><div class="cta"><h2>${title}</h2><p>${text}</p><div class="actions" style="justify-content:center"><a href="${href}" class="btn primary">${label}</a><a class="btn secondary" href="${strings.tel}">${strings.talk} · ${strings.phone}</a></div></div></div></section>`,
   honest: (text) => `<p class="honest">${text}</p>`,
+  payflow: ({ steps, branches }) => `<div class="pf"><ol class="pf-track">${steps.map((s, i) => `<li><span class="pf-n">0${i + 1}</span><small>${s.k}</small><h3>${s.t}</h3><p>${s.d}</p></li>`).join('')}</ol><div class="pf-branches">${branches.map((b) => `<div><h3>${b.t}</h3><p>${b.d}</p></div>`).join('')}</div></div>`,
 }

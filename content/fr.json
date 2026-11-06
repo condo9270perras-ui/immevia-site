@@ -235,6 +235,47 @@
     "cta": {
       "title": "Voyez-la fonctionner sur votre immeuble.",
       "text": "Trente minutes, votre cas, aucune promesse que nous ne pouvons pas montrer à l’écran."
+    },
+    "payflowLabel": "Le chemin d’un paiement",
+    "payflowTitle": "Du virement du résident au relevé, sans saisie.",
+    "payflowCopy": "Chaque paiement suit le même chemin. Vous n’intervenez que sur les exceptions, et Immevia retient votre décision pour la fois suivante.",
+    "payflow": {
+      "steps": [
+        {
+          "k": "Le résident paie",
+          "t": "Virement Interac ou dépôt direct",
+          "d": "Il paie comme d’habitude, depuis sa banque. Rien à installer de son côté."
+        },
+        {
+          "k": "L’avis arrive",
+          "t": "Courriel Interac ou relevé bancaire",
+          "d": "L’avis de virement arrive à l’adresse Immevia de l’immeuble ; les dépôts directs viennent du relevé que vous importez."
+        },
+        {
+          "k": "Immevia reconnaît",
+          "t": "Payeur, montant, unité",
+          "d": "Le nom du payeur, le montant et la référence désignent l’unité. Immevia apprend les payeurs que vous confirmez."
+        },
+        {
+          "k": "Appliqué et classé",
+          "t": "Solde de l’unité à jour",
+          "d": "Le paiement règle d’abord le mois impayé le plus ancien. Le résident voit son solde ; le rapport mensuel est à jour."
+        }
+      ],
+      "branches": [
+        {
+          "t": "Pas reconnu ?",
+          "d": "Il vous attend dans « Paiements reçus », avec l’unité la plus probable proposée. Un clic pour confirmer, ou pour refuser."
+        },
+        {
+          "t": "Annulé, refusé ou expiré ?",
+          "d": "Les avis d’annulation et les rappels sont ignorés : rien n’est enregistré, rien n’est compté deux fois."
+        },
+        {
+          "t": "Déjà inscrit ?",
+          "d": "Un dépôt déjà enregistré à la main est reconnu sur le relevé et n’est pas ajouté une deuxième fois."
+        }
+      ]
     }
   },
   "record": {

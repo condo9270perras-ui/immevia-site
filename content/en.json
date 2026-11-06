@@ -322,6 +322,47 @@
     "cta": {
       "title": "See it run on your building.",
       "text": "Thirty minutes, your situation, no promise we can’t show on screen."
+    },
+    "payflowLabel": "How a payment flows",
+    "payflowTitle": "From the resident’s transfer to the statement, no typing.",
+    "payflowCopy": "Every payment follows the same path. You only step in on exceptions, and Immevia remembers your decision for next time.",
+    "payflow": {
+      "steps": [
+        {
+          "k": "The resident pays",
+          "t": "Interac e-Transfer or direct deposit",
+          "d": "They pay as usual, from their bank. Nothing to install on their side."
+        },
+        {
+          "k": "The notice arrives",
+          "t": "Interac e-mail or bank statement",
+          "d": "The transfer notice reaches the building’s Immevia address; direct deposits come from the statement you import."
+        },
+        {
+          "k": "Immevia recognises it",
+          "t": "Payer, amount, unit",
+          "d": "The payer’s name, the amount and the reference point to the unit. Immevia learns the payers you confirm."
+        },
+        {
+          "k": "Applied and filed",
+          "t": "Unit balance up to date",
+          "d": "The payment settles the oldest unpaid month first. The resident sees their balance; the monthly report is current."
+        }
+      ],
+      "branches": [
+        {
+          "t": "Not recognised?",
+          "d": "It waits in “Payments received”, with the most likely unit suggested. One click to confirm, or to reject."
+        },
+        {
+          "t": "Cancelled, declined or expired?",
+          "d": "Cancellation notices and reminders are ignored: nothing is recorded, nothing is counted twice."
+        },
+        {
+          "t": "Already recorded?",
+          "d": "A deposit you already entered by hand is recognised on the statement and is not added a second time."
+        }
+      ]
     }
   },
   "record": {
